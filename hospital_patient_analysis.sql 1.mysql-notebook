@@ -1,0 +1,362 @@
+{
+    "type": "MySQLNotebook",
+    "version": "1.0",
+    "caption": "DB Notebook 1",
+    "content": "\\about\n-- HOSPITAL PATIENT DATA ANALYSIS\n-- Synthetic dataset: 1,000 patient records\n-- Tools: MySQL + Power BI\n-- Purpose: Exploratory analysis of hospital patient data\n\nCREATE DATABASE IF NOT EXISTS hospital_analysis;\nUSE hospital_analysis;\nCREATE TABLE IF NOT EXISTS patients (\n    patient_id INT PRIMARY KEY,\n    age INT,\n    gender VARCHAR(10),\n    diagnosis VARCHAR(50),\n    department VARCHAR(50),\n    admission_date DATE,\n    discharge_date DATE,\n    length_of_stay INT,\n    admission_type VARCHAR(20),\n    treatment_type VARCHAR(50),\n    outcome VARCHAR(30)\n);LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/hospital_patient_data.csv'\nINTO TABLE patients\nFIELDS TERMINATED BY ','\nENCLOSED BY '\"'\nLINES TERMINATED BY '\\n'\nIGNORE 1 ROWS;\n-- 1. Check total number of patients\nSELECT COUNT(*) AS total_patients\nFROM patients;\n\n-- 2. Check for duplicate patient IDs\nSELECT patient_id, COUNT(*) AS count\nFROM patients\nGROUP BY patient_id\nHAVING COUNT(*) > 1;\n\n-- 3. Check for missing values\nSELECT\n    SUM(patient_id IS NULL) AS missing_patient_id,\n    SUM(age IS NULL) AS missing_age,\n    SUM(gender IS NULL) AS missing_gender,\n    SUM(diagnosis IS NULL) AS missing_diagnosis,\n    SUM(department IS NULL) AS missing_department,\n    SUM(admission_date IS NULL) AS missing_admission_date,\n    SUM(discharge_date IS NULL) AS missing_discharge_date,\n    SUM(length_of_stay IS NULL) AS missing_length_of_stay,\n    SUM(admission_type IS NULL) AS missing_admission_type,\n    SUM(treatment_type IS NULL) AS missing_treatment_type,\n    SUM(outcome IS NULL) AS missing_outcome\nFROM patients;\n\n-- 4. Check age range\nSELECT\n    MIN(age) AS minimum_age,\n    MAX(age) AS maximum_age,\n    AVG(age) AS average_age\nFROM patients;\n\n-- 5. Check length-of-stay range\nSELECT\n    MIN(length_of_stay) AS minimum_los,\n    MAX(length_of_stay) AS maximum_los,\n    AVG(length_of_stay) AS average_los\nFROM patients;\n\n-- 6. Check length-of-stay consistency\nSELECT *\nFROM patients\nWHERE length_of_stay <> DATEDIFF(discharge_date, admission_date);\n-- =====================================================\n--  ANALYSIS QUERIES\n-- =====================================================\n\n-- 1. Diagnosis distribution\nSELECT\n    diagnosis,\n    COUNT(*) AS patient_count\nFROM patients\nGROUP BY diagnosis\nORDER BY patient_count DESC;\n\n\n-- 2. Patient volume by department\nSELECT\n    department,\n    COUNT(*) AS patient_count\nFROM patients\nGROUP BY department\nORDER BY patient_count DESC;\n\n\n-- 3. Patient distribution by age group\nSELECT\n    CASE\n        WHEN age < 18 THEN 'Child'\n        WHEN age BETWEEN 18 AND 39 THEN 'Young Adult'\n        WHEN age BETWEEN 40 AND 59 THEN 'Middle-Aged Adult'\n        ELSE 'Older Adult'\n    END AS age_group,\n    COUNT(*) AS patient_count\nFROM patients\nGROUP BY age_group\nORDER BY patient_count DESC;\n\n\n-- 4. Gender distribution\nSELECT\n    gender,\n    COUNT(*) AS patient_count\nFROM patients\nGROUP BY gender\nORDER BY patient_count DESC;\n\n\n-- 5. Admission type distribution\nSELECT\n    admission_type,\n    COUNT(*) AS patient_count\nFROM patients\nGROUP BY admission_type\nORDER BY patient_count DESC;\n\n\n-- 6. Treatment type distribution\nSELECT\n    treatment_type,\n    COUNT(*) AS patient_count\nFROM patients\nGROUP BY treatment_type\nORDER BY patient_count DESC;\n\n\n-- 7. Patient outcomes\nSELECT\n    outcome,\n    COUNT(*) AS patient_count\nFROM patients\nGROUP BY outcome\nORDER BY patient_count DESC;\n\n\n-- 8. Average length of stay by department\nSELECT\n    department,\n    COUNT(*) AS patient_count,\n    ROUND(AVG(length_of_stay), 2) AS average_los\nFROM patients\nGROUP BY department\nORDER BY average_los DESC;\n\n\n-- 9. Average length of stay by diagnosis\nSELECT\n    diagnosis,\n    COUNT(*) AS patient_count,\n    ROUND(AVG(length_of_stay), 2) AS average_los\nFROM patients\nGROUP BY diagnosis\nORDER BY average_los DESC;\n\n\n-- 10. Monthly admission trends\nSELECT\n    YEAR(admission_date) AS admission_year,\n    MONTH(admission_date) AS admission_month,\n    DATE_FORMAT(admission_date, '%Y-%m') AS admission_month_label,\n    COUNT(*) AS patient_count\nFROM patients\nGROUP BY\n    YEAR(admission_date),\n    MONTH(admission_date),\n    DATE_FORMAT(admission_date, '%Y-%m')\nORDER BY\n    admission_year,\n    admission_month;\n\n\n-- 11. Outcomes by admission type\nSELECT\n    admission_type,\n    outcome,\n    COUNT(*) AS patient_count\nFROM patients\nGROUP BY admission_type, outcome\nORDER BY admission_type, patient_count DESC;\n\n\n-- 12. Overall healthcare KPIs\nSELECT\n    COUNT(*) AS total_patients,\n    ROUND(AVG(age), 2) AS average_age,\n    ROUND(AVG(length_of_stay), 2) AS average_los,\n    SUM(outcome = 'Discharged') AS discharged_patients\nFROM patients;\n\n\n-- 13. Discharge rate\nSELECT\n    ROUND(\n        100 * SUM(outcome = 'Discharged') / COUNT(*),\n        2\n    ) AS discharge_rate_percent\nFROM patients;\nSELECT\n    ROUND(\n        100 * SUM(outcome = 'Discharged') / COUNT(*),\n        2\n    ) AS discharge_rate_percent\nFROM patients;\n\n\n\n\n\n",
+    "options": {
+        "tabSize": 4,
+        "insertSpaces": true,
+        "indentSize": 4,
+        "defaultEOL": "CRLF",
+        "trimAutoWhitespace": true
+    },
+    "viewState": {
+        "cursorState": [
+            {
+                "inSelectionMode": false,
+                "selectionStart": {
+                    "lineNumber": 33,
+                    "column": 14
+                },
+                "position": {
+                    "lineNumber": 33,
+                    "column": 14
+                }
+            }
+        ],
+        "viewState": {
+            "scrollLeft": 0,
+            "firstPosition": {
+                "lineNumber": 187,
+                "column": 1
+            },
+            "firstPositionDeltaTop": -8
+        },
+        "contributionsState": {
+            "editor.contrib.folding": {},
+            "editor.contrib.wordHighlighter": false
+        }
+    },
+    "contexts": [
+        {
+            "state": {
+                "start": 1,
+                "end": 1,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 2,
+                            "content": "Welcome to the DB Notebook.\n\nUse DB Notebooks to explore MySQL data with executable SQL, JavaScript, and TypeScript code blocks.\n\n* Press Ctrl+Enter to execute or re-execute the selected code block.\n* Use Up and Down keys to move between code blocks.\n* Use Ctrl+Up and Ctrl+Down to navigate through the command history.\n\n* Execute \\sql to switch to SQL, \\js to JavaScript and \\ts to TypeScript mode.\n* Execute \\help or \\? for help;",
+                            "language": "ansi"
+                        }
+                    ]
+                },
+                "currentHeight": 198,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 6
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 2,
+                "end": 214,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 2,
+                            "index": 0,
+                            "resultId": "e0be1fed-3979-43ae-8f89-760b7d6c9ca1",
+                            "content": "OK, 1 row affected in 7.859ms"
+                        },
+                        {
+                            "type": 2,
+                            "index": 1,
+                            "resultId": "7884a460-6b06-4ee3-c3d2-53eaed986324",
+                            "content": "OK, 0 records retrieved in 0.865ms"
+                        },
+                        {
+                            "type": 2,
+                            "index": 2,
+                            "resultId": "ad0071ad-3470-45fa-e28e-f076231e840b",
+                            "content": "OK, 0 records retrieved in 7.502ms"
+                        },
+                        {
+                            "type": 0,
+                            "index": 3,
+                            "content": "MySQL Error (1062): Duplicate entry '1' for key 'patients.PRIMARY'",
+                            "language": "ansi"
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": ""
+                    }
+                },
+                "currentHeight": 84,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 212
+                        },
+                        "contentStart": 164,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 212,
+                            "length": 23
+                        },
+                        "contentStart": 213,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 235,
+                            "length": 327
+                        },
+                        "contentStart": 236,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 562,
+                            "length": 191
+                        },
+                        "contentStart": 562,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 753,
+                            "length": 86
+                        },
+                        "contentStart": 791,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 839,
+                            "length": 131
+                        },
+                        "contentStart": 879,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 970,
+                            "length": 624
+                        },
+                        "contentStart": 1003,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 1594,
+                            "length": 131
+                        },
+                        "contentStart": 1618,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 1725,
+                            "length": 175
+                        },
+                        "contentStart": 1760,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 1900,
+                            "length": 129
+                        },
+                        "contentStart": 1941,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 2029,
+                            "length": 279
+                        },
+                        "contentStart": 2195,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 2308,
+                            "length": 153
+                        },
+                        "contentStart": 2346,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 2461,
+                            "length": 348
+                        },
+                        "contentStart": 2504,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 2809,
+                            "length": 136
+                        },
+                        "contentStart": 2838,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 2945,
+                            "length": 160
+                        },
+                        "contentStart": 2982,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 3105,
+                            "length": 160
+                        },
+                        "contentStart": 3142,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 3265,
+                            "length": 135
+                        },
+                        "contentStart": 3291,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 3400,
+                            "length": 209
+                        },
+                        "contentStart": 3446,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 3609,
+                            "length": 206
+                        },
+                        "contentStart": 3654,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 3815,
+                            "length": 395
+                        },
+                        "contentStart": 3850,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 4210,
+                            "length": 198
+                        },
+                        "contentStart": 4247,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 4408,
+                            "length": 231
+                        },
+                        "contentStart": 4442,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 4639,
+                            "length": 153
+                        },
+                        "contentStart": 4664,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 4792,
+                            "length": 129
+                        },
+                        "contentStart": 4793,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 4921,
+                            "length": 5
+                        },
+                        "contentStart": 4920,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 215,
+                "end": 215,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 0
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        }
+    ]
+}
