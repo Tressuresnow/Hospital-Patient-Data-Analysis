@@ -1,0 +1,1001 @@
+patient_id,age,gender,diagnosis,department,admission_date,discharge_date,length_of_stay,admission_type,treatment_type,outcome
+1,74,Male,Hypertension,Cardiology,2026-01-12,2026-01-17,5,Emergency,Medication,Discharged
+2,7,Male,Asthma,Respiratory,2026-02-12,2026-02-19,7,Emergency,Inhaler Therapy,Discharged
+3,45,Female,Hypertension,Cardiology,2025-05-06,2025-05-13,7,Emergency,Medication,Discharged
+4,56,Female,Pneumonia,Respiratory,2025-08-06,2025-08-19,13,Emergency,Antibiotics,Discharged
+5,67,Male,Peptic Ulcer Disease,Gastroenterology,2025-12-08,2025-12-20,12,Emergency,Medication,Discharged
+6,67,Female,Asthma,Respiratory,2026-08-02,2026-08-07,5,Referral,Inhaler Therapy,Discharged
+7,85,Male,Asthma,Respiratory,2025-03-12,2025-03-17,5,Emergency,Inhaler Therapy,Discharged
+8,47,Female,Malaria,General Medicine,2025-08-27,2025-09-03,7,Emergency,Antimalarial Therapy,Discharged
+9,32,Female,Sickle Cell Disease,Hematology,2025-01-03,2025-01-18,15,Elective,Pain Management,Discharged
+10,10,Female,Diabetes,Endocrinology,2025-05-14,2025-05-20,6,Emergency,Medication,Discharged
+11,32,Female,Hypertension,Cardiology,2025-04-23,2025-04-30,7,Emergency,Medication,Discharged
+12,32,Female,Hypertension,Cardiology,2025-01-16,2025-01-19,3,Elective,Medication,Referred for Follow-up
+13,8,Male,Asthma,Respiratory,2026-08-26,2026-08-28,2,Emergency,Inhaler Therapy,Referred for Follow-up
+14,18,Female,Malaria,General Medicine,2025-06-28,2025-06-30,2,Elective,Antimalarial Therapy,Referred for Follow-up
+15,55,Male,Malaria,General Medicine,2025-05-10,2025-05-16,6,Emergency,Antimalarial Therapy,Referred for Follow-up
+16,31,Female,Malaria,General Medicine,2025-03-07,2025-03-12,5,Referral,Antimalarial Therapy,Discharged
+17,25,Female,Pneumonia,Respiratory,2026-04-05,2026-04-11,6,Emergency,Supportive Care,Discharged
+18,73,Female,Hypertension,Cardiology,2026-04-08,2026-04-14,6,Emergency,Medication,Discharged
+19,60,Male,Asthma,Respiratory,2026-06-18,2026-06-21,3,Emergency,Inhaler Therapy,Referred for Follow-up
+20,2,Female,Pneumonia,Respiratory,2025-02-01,2025-02-12,11,Emergency,Supportive Care,Discharged
+21,84,Female,Malaria,General Medicine,2026-02-16,2026-02-23,7,Referral,Medication,Referred for Follow-up
+22,67,Female,Asthma,Respiratory,2025-04-21,2025-04-24,3,Emergency,Medication,Discharged
+23,38,Male,Pneumonia,Respiratory,2025-03-17,2025-03-21,4,Emergency,Supportive Care,Discharged
+24,20,Male,Asthma,Respiratory,2025-06-01,2025-06-02,1,Elective,Medication,Discharged
+25,64,Male,Diabetes,Endocrinology,2025-10-09,2025-10-17,8,Elective,Medication,Discharged
+26,39,Male,Diabetes,Endocrinology,2026-08-23,2026-08-27,4,Emergency,Medication + Lifestyle,Discharged
+27,24,Female,Asthma,Respiratory,2026-06-28,2026-06-30,2,Emergency,Medication,Discharged
+28,42,Male,Hypertension,Cardiology,2026-06-02,2026-06-08,6,Emergency,Medication + Lifestyle,Discharged
+29,63,Female,Hypertension,Cardiology,2025-04-28,2025-05-01,3,Emergency,Medication,Discharged
+30,67,Male,Diabetes,Endocrinology,2026-04-08,2026-04-14,6,Elective,Insulin Therapy,Discharged
+31,63,Male,Pneumonia,Respiratory,2025-12-14,2025-12-21,7,Elective,Supportive Care,Discharged
+32,88,Female,Malaria,General Medicine,2026-03-02,2026-03-08,6,Emergency,Medication,Discharged
+33,37,Female,Sickle Cell Disease,Hematology,2026-03-14,2026-03-30,16,Emergency,Blood Transfusion,Discharged
+34,59,Female,Hypertension,Cardiology,2026-01-19,2026-01-22,3,Emergency,Medication + Lifestyle,Discharged
+35,47,Female,Hypertension,Cardiology,2025-03-10,2025-03-17,7,Elective,Medication + Lifestyle,Discharged
+36,57,Female,Hypertension,Cardiology,2025-04-06,2025-04-11,5,Referral,Medication,Referred for Follow-up
+37,72,Male,Diabetes,Endocrinology,2025-04-09,2025-04-14,5,Referral,Insulin Therapy,Left Against Medical Advice
+38,55,Female,Malaria,General Medicine,2025-05-14,2025-05-18,4,Emergency,Medication,Left Against Medical Advice
+39,56,Female,Diabetes,Endocrinology,2026-07-30,2026-08-07,8,Emergency,Medication + Lifestyle,Discharged
+40,71,Female,Hypertension,Cardiology,2026-02-25,2026-02-26,1,Elective,Medication,Discharged
+41,77,Male,Diabetes,Endocrinology,2026-03-10,2026-03-14,4,Referral,Medication + Lifestyle,Discharged
+42,8,Female,Diabetes,Endocrinology,2025-02-22,2025-02-25,3,Emergency,Medication + Lifestyle,Discharged
+43,36,Male,Malaria,General Medicine,2025-12-27,2025-12-31,4,Emergency,Medication,Discharged
+44,34,Male,Diabetes,Endocrinology,2026-06-04,2026-06-13,9,Elective,Medication + Lifestyle,Left Against Medical Advice
+45,2,Male,Hypertension,Cardiology,2026-05-09,2026-05-13,4,Referral,Medication,Discharged
+46,29,Male,Sickle Cell Disease,Hematology,2025-04-21,2025-05-01,10,Referral,Pain Management,Discharged
+47,32,Female,Pneumonia,Respiratory,2026-07-24,2026-08-03,10,Emergency,Supportive Care,Discharged
+48,50,Female,Hypertension,Cardiology,2025-10-13,2025-10-17,4,Emergency,Medication,Referred for Follow-up
+49,73,Female,Hypertension,Cardiology,2026-07-29,2026-07-30,1,Elective,Medication + Lifestyle,Discharged
+50,18,Male,Malaria,General Medicine,2025-10-01,2025-10-07,6,Referral,Antimalarial Therapy,Discharged
+51,41,Male,Malaria,General Medicine,2025-07-04,2025-07-14,10,Emergency,Antimalarial Therapy,Discharged
+52,33,Male,Peptic Ulcer Disease,Gastroenterology,2025-12-14,2025-12-16,2,Referral,Medication + Endoscopy,Referred for Follow-up
+53,29,Female,Asthma,Respiratory,2025-01-07,2025-01-11,4,Emergency,Medication,Referred for Follow-up
+54,76,Male,Malaria,General Medicine,2026-08-03,2026-08-12,9,Emergency,Antimalarial Therapy,Discharged
+55,80,Female,Malaria,General Medicine,2025-05-26,2025-05-30,4,Emergency,Antimalarial Therapy,Discharged
+56,79,Female,Asthma,Respiratory,2026-06-28,2026-07-01,3,Elective,Inhaler Therapy,Referred for Follow-up
+57,27,Male,Asthma,Respiratory,2026-03-06,2026-03-12,6,Emergency,Medication,Transferred
+58,66,Female,Asthma,Respiratory,2025-06-11,2025-06-15,4,Referral,Medication,Discharged
+59,41,Male,Malaria,General Medicine,2025-11-16,2025-11-26,10,Emergency,Medication,Discharged
+60,49,Female,Peptic Ulcer Disease,Gastroenterology,2025-02-23,2025-03-03,8,Emergency,Medication,Discharged
+61,65,Female,Asthma,Respiratory,2025-02-20,2025-02-21,1,Elective,Inhaler Therapy,Referred for Follow-up
+62,68,Male,Asthma,Respiratory,2025-10-06,2025-10-10,4,Elective,Inhaler Therapy,Discharged
+63,58,Male,Pneumonia,Respiratory,2026-05-13,2026-05-25,12,Emergency,Supportive Care,Discharged
+64,58,Female,Pneumonia,Respiratory,2025-10-07,2025-10-11,4,Referral,Supportive Care,Discharged
+65,78,Female,Pneumonia,Respiratory,2026-06-09,2026-06-18,9,Emergency,Antibiotics,Discharged
+66,83,Male,Diabetes,Endocrinology,2026-03-17,2026-03-23,6,Elective,Insulin Therapy,Discharged
+67,37,Female,Peptic Ulcer Disease,Gastroenterology,2026-08-31,2026-09-10,10,Referral,Medication + Endoscopy,Transferred
+68,12,Female,Pneumonia,Respiratory,2026-06-24,2026-07-02,8,Elective,Supportive Care,Discharged
+69,42,Female,Pneumonia,Respiratory,2025-02-16,2025-02-22,6,Emergency,Supportive Care,Discharged
+70,30,Male,Hypertension,Cardiology,2025-02-26,2025-03-01,3,Emergency,Medication + Lifestyle,Discharged
+71,42,Female,Malaria,General Medicine,2025-11-05,2025-11-11,6,Elective,Antimalarial Therapy,Referred for Follow-up
+72,85,Female,Asthma,Respiratory,2025-09-19,2025-09-21,2,Emergency,Inhaler Therapy,Discharged
+73,69,Male,Pneumonia,Respiratory,2025-05-03,2025-05-17,14,Elective,Supportive Care,Discharged
+74,56,Male,Pneumonia,Respiratory,2026-03-17,2026-03-31,14,Elective,Supportive Care,Referred for Follow-up
+75,55,Female,Asthma,Respiratory,2026-01-25,2026-01-31,6,Emergency,Inhaler Therapy,Discharged
+76,47,Male,Hypertension,Cardiology,2025-03-15,2025-03-21,6,Elective,Medication + Lifestyle,Discharged
+77,70,Female,Malaria,General Medicine,2026-03-23,2026-03-29,6,Referral,Antimalarial Therapy,Discharged
+78,34,Female,Asthma,Respiratory,2026-04-16,2026-04-17,1,Elective,Inhaler Therapy,Discharged
+79,39,Male,Peptic Ulcer Disease,Gastroenterology,2026-08-13,2026-08-20,7,Emergency,Medication + Endoscopy,Discharged
+80,18,Female,Hypertension,Cardiology,2026-03-04,2026-03-09,5,Elective,Medication + Lifestyle,Discharged
+81,67,Male,Diabetes,Endocrinology,2026-02-19,2026-02-26,7,Emergency,Medication,Discharged
+82,42,Female,Hypertension,Cardiology,2025-06-25,2025-06-27,2,Referral,Medication + Lifestyle,Discharged
+83,84,Male,Hypertension,Cardiology,2026-01-06,2026-01-08,2,Referral,Medication + Lifestyle,Discharged
+84,64,Female,Diabetes,Endocrinology,2026-03-24,2026-04-03,10,Emergency,Medication,Discharged
+85,28,Male,Asthma,Respiratory,2026-03-23,2026-03-31,8,Emergency,Inhaler Therapy,Discharged
+86,31,Male,Hypertension,Cardiology,2026-02-10,2026-02-11,1,Referral,Medication,Discharged
+87,79,Female,Sickle Cell Disease,Hematology,2025-12-14,2025-12-27,13,Emergency,Blood Transfusion,Transferred
+88,41,Male,Hypertension,Cardiology,2025-06-22,2025-06-24,2,Elective,Medication + Lifestyle,Discharged
+89,31,Female,Pneumonia,Respiratory,2026-06-28,2026-07-03,5,Referral,Antibiotics,Referred for Follow-up
+90,10,Male,Diabetes,Endocrinology,2025-07-18,2025-07-24,6,Referral,Medication + Lifestyle,Discharged
+91,39,Female,Hypertension,Cardiology,2025-12-26,2025-12-28,2,Elective,Medication + Lifestyle,Discharged
+92,79,Male,Pneumonia,Respiratory,2025-08-30,2025-09-08,9,Emergency,Antibiotics,Discharged
+93,62,Female,Peptic Ulcer Disease,Gastroenterology,2025-09-20,2025-09-29,9,Emergency,Medication,Transferred
+94,34,Male,Sickle Cell Disease,Hematology,2025-06-06,2025-06-15,9,Elective,Pain Management,Discharged
+95,6,Male,Pneumonia,Respiratory,2025-07-01,2025-07-11,10,Elective,Antibiotics,Discharged
+96,20,Male,Asthma,Respiratory,2026-04-21,2026-04-24,3,Emergency,Medication,Discharged
+97,72,Male,Hypertension,Cardiology,2025-11-20,2025-11-23,3,Elective,Medication + Lifestyle,Discharged
+98,41,Female,Hypertension,Cardiology,2025-03-11,2025-03-12,1,Elective,Medication + Lifestyle,Discharged
+99,70,Male,Asthma,Respiratory,2025-11-07,2025-11-08,1,Elective,Medication,Discharged
+100,67,Female,Asthma,Respiratory,2025-12-27,2025-12-28,1,Referral,Inhaler Therapy,Transferred
+101,2,Male,Pneumonia,Respiratory,2025-11-14,2025-11-27,13,Emergency,Antibiotics,Discharged
+102,65,Male,Malaria,General Medicine,2025-02-08,2025-02-13,5,Elective,Medication,Left Against Medical Advice
+103,66,Female,Hypertension,Cardiology,2025-10-21,2025-10-27,6,Elective,Medication + Lifestyle,Discharged
+104,28,Female,Peptic Ulcer Disease,Gastroenterology,2026-06-04,2026-06-10,6,Emergency,Medication,Discharged
+105,36,Male,Pneumonia,Respiratory,2026-08-18,2026-08-23,5,Elective,Supportive Care,Discharged
+106,74,Male,Pneumonia,Respiratory,2026-04-06,2026-04-13,7,Emergency,Antibiotics,Referred for Follow-up
+107,60,Male,Pneumonia,Respiratory,2026-05-03,2026-05-13,10,Elective,Supportive Care,Discharged
+108,40,Female,Pneumonia,Respiratory,2025-03-05,2025-03-21,16,Emergency,Antibiotics,Discharged
+109,41,Female,Hypertension,Cardiology,2025-12-18,2025-12-22,4,Emergency,Medication,Discharged
+110,69,Male,Diabetes,Endocrinology,2025-06-26,2025-07-04,8,Elective,Medication + Lifestyle,Transferred
+111,55,Female,Pneumonia,Respiratory,2026-03-25,2026-04-08,14,Emergency,Antibiotics,Referred for Follow-up
+112,37,Female,Malaria,General Medicine,2026-01-08,2026-01-17,9,Emergency,Antimalarial Therapy,Transferred
+113,38,Female,Hypertension,Cardiology,2026-02-01,2026-02-08,7,Emergency,Medication + Lifestyle,Discharged
+114,60,Female,Pneumonia,Respiratory,2025-02-23,2025-03-07,12,Emergency,Supportive Care,Discharged
+115,68,Male,Hypertension,Cardiology,2025-12-04,2025-12-08,4,Emergency,Medication,Discharged
+116,73,Male,Peptic Ulcer Disease,Gastroenterology,2025-10-18,2025-10-29,11,Elective,Medication + Endoscopy,Transferred
+117,37,Male,Malaria,General Medicine,2025-12-08,2025-12-14,6,Emergency,Antimalarial Therapy,Discharged
+118,58,Male,Diabetes,Endocrinology,2025-05-25,2025-06-05,11,Emergency,Medication + Lifestyle,Referred for Follow-up
+119,81,Female,Malaria,General Medicine,2026-02-06,2026-02-11,5,Emergency,Medication,Discharged
+120,47,Female,Hypertension,Cardiology,2025-11-14,2025-11-15,1,Referral,Medication,Discharged
+121,77,Male,Malaria,General Medicine,2025-12-03,2025-12-07,4,Elective,Medication,Left Against Medical Advice
+122,27,Male,Hypertension,Cardiology,2026-03-10,2026-03-14,4,Emergency,Medication,Discharged
+123,84,Male,Malaria,General Medicine,2026-01-07,2026-01-09,2,Referral,Antimalarial Therapy,Transferred
+124,21,Female,Malaria,General Medicine,2025-07-04,2025-07-10,6,Emergency,Medication,Discharged
+125,10,Male,Peptic Ulcer Disease,Gastroenterology,2026-05-13,2026-05-25,12,Emergency,Medication + Endoscopy,Discharged
+126,60,Female,Diabetes,Endocrinology,2025-05-21,2025-05-30,9,Referral,Medication,Discharged
+127,4,Male,Malaria,General Medicine,2025-03-21,2025-03-29,8,Emergency,Antimalarial Therapy,Discharged
+128,64,Male,Hypertension,Cardiology,2026-06-04,2026-06-08,4,Emergency,Medication,Discharged
+129,70,Female,Hypertension,Cardiology,2025-05-15,2025-05-23,8,Emergency,Medication + Lifestyle,Discharged
+130,64,Female,Diabetes,Endocrinology,2025-06-16,2025-06-22,6,Emergency,Medication,Left Against Medical Advice
+131,19,Male,Malaria,General Medicine,2026-03-25,2026-04-01,7,Referral,Antimalarial Therapy,Discharged
+132,8,Female,Malaria,General Medicine,2026-02-25,2026-03-05,8,Emergency,Antimalarial Therapy,Discharged
+133,59,Female,Peptic Ulcer Disease,Gastroenterology,2026-03-31,2026-04-13,13,Emergency,Medication,Discharged
+134,74,Female,Hypertension,Cardiology,2025-08-28,2025-08-30,2,Referral,Medication + Lifestyle,Referred for Follow-up
+135,26,Male,Diabetes,Endocrinology,2025-09-02,2025-09-07,5,Referral,Medication + Lifestyle,Referred for Follow-up
+136,56,Female,Sickle Cell Disease,Hematology,2026-04-26,2026-05-10,14,Elective,Blood Transfusion,Discharged
+137,4,Male,Asthma,Respiratory,2026-08-08,2026-08-13,5,Elective,Medication,Discharged
+138,66,Female,Sickle Cell Disease,Hematology,2025-10-16,2025-11-06,21,Emergency,Blood Transfusion,Discharged
+139,78,Male,Diabetes,Endocrinology,2026-06-25,2026-06-30,5,Elective,Medication + Lifestyle,Referred for Follow-up
+140,23,Male,Sickle Cell Disease,Hematology,2025-07-24,2025-08-05,12,Emergency,Pain Management,Discharged
+141,40,Male,Pneumonia,Respiratory,2025-02-23,2025-02-28,5,Emergency,Supportive Care,Discharged
+142,53,Female,Pneumonia,Respiratory,2026-07-22,2026-07-26,4,Referral,Supportive Care,Transferred
+143,18,Male,Asthma,Respiratory,2026-06-13,2026-06-15,2,Emergency,Inhaler Therapy,Transferred
+144,71,Female,Diabetes,Endocrinology,2025-03-27,2025-04-02,6,Elective,Insulin Therapy,Discharged
+145,41,Female,Diabetes,Endocrinology,2026-04-06,2026-04-15,9,Referral,Insulin Therapy,Transferred
+146,47,Male,Diabetes,Endocrinology,2025-05-31,2025-06-06,6,Emergency,Medication + Lifestyle,Referred for Follow-up
+147,23,Female,Hypertension,Cardiology,2025-08-16,2025-08-22,6,Referral,Medication,Discharged
+148,56,Male,Peptic Ulcer Disease,Gastroenterology,2025-12-24,2026-01-03,10,Referral,Medication + Endoscopy,Transferred
+149,44,Female,Diabetes,Endocrinology,2026-03-01,2026-03-07,6,Emergency,Medication,Discharged
+150,41,Male,Hypertension,Cardiology,2026-05-30,2026-06-02,3,Emergency,Medication + Lifestyle,Discharged
+151,72,Female,Pneumonia,Respiratory,2026-01-31,2026-02-06,6,Emergency,Antibiotics,Discharged
+152,73,Female,Asthma,Respiratory,2025-08-18,2025-08-19,1,Referral,Medication,Discharged
+153,29,Female,Peptic Ulcer Disease,Gastroenterology,2025-11-23,2025-12-04,11,Emergency,Medication,Referred for Follow-up
+154,40,Female,Pneumonia,Respiratory,2025-05-30,2025-06-02,3,Emergency,Supportive Care,Discharged
+155,41,Female,Peptic Ulcer Disease,Gastroenterology,2025-10-21,2025-10-28,7,Emergency,Medication,Discharged
+156,29,Female,Asthma,Respiratory,2026-04-26,2026-04-28,2,Elective,Inhaler Therapy,Discharged
+157,60,Female,Pneumonia,Respiratory,2025-03-23,2025-04-01,9,Emergency,Antibiotics,Referred for Follow-up
+158,74,Female,Sickle Cell Disease,Hematology,2025-08-09,2025-08-25,16,Referral,Blood Transfusion,Transferred
+159,23,Male,Asthma,Respiratory,2026-07-16,2026-07-22,6,Emergency,Inhaler Therapy,Discharged
+160,45,Female,Diabetes,Endocrinology,2025-10-23,2025-10-31,8,Emergency,Medication,Discharged
+161,4,Female,Malaria,General Medicine,2025-05-05,2025-05-08,3,Emergency,Medication,Referred for Follow-up
+162,77,Female,Asthma,Respiratory,2026-03-06,2026-03-11,5,Emergency,Inhaler Therapy,Referred for Follow-up
+163,51,Male,Diabetes,Endocrinology,2025-04-24,2025-05-02,8,Elective,Medication,Discharged
+164,61,Female,Pneumonia,Respiratory,2026-06-12,2026-06-15,3,Emergency,Antibiotics,Discharged
+165,79,Male,Diabetes,Endocrinology,2025-05-28,2025-06-04,7,Emergency,Medication + Lifestyle,Discharged
+166,9,Female,Malaria,General Medicine,2025-01-02,2025-01-09,7,Emergency,Medication,Discharged
+167,47,Male,Asthma,Respiratory,2026-08-08,2026-08-12,4,Emergency,Inhaler Therapy,Discharged
+168,88,Female,Hypertension,Cardiology,2025-03-29,2025-04-03,5,Emergency,Medication,Discharged
+169,35,Female,Hypertension,Cardiology,2026-06-23,2026-06-25,2,Elective,Medication,Discharged
+170,28,Male,Pneumonia,Respiratory,2026-02-04,2026-02-14,10,Elective,Antibiotics,Referred for Follow-up
+171,61,Female,Asthma,Respiratory,2026-02-01,2026-02-08,7,Emergency,Inhaler Therapy,Transferred
+172,61,Male,Diabetes,Endocrinology,2025-01-17,2025-01-28,11,Emergency,Insulin Therapy,Discharged
+173,37,Female,Peptic Ulcer Disease,Gastroenterology,2025-12-20,2025-12-28,8,Referral,Medication,Discharged
+174,73,Female,Pneumonia,Respiratory,2025-04-17,2025-04-28,11,Emergency,Antibiotics,Discharged
+175,72,Female,Hypertension,Cardiology,2025-02-15,2025-02-18,3,Emergency,Medication,Discharged
+176,47,Female,Diabetes,Endocrinology,2025-12-13,2025-12-15,2,Emergency,Medication + Lifestyle,Referred for Follow-up
+177,38,Female,Hypertension,Cardiology,2026-05-06,2026-05-10,4,Emergency,Medication + Lifestyle,Referred for Follow-up
+178,55,Male,Malaria,General Medicine,2025-03-06,2025-03-14,8,Emergency,Antimalarial Therapy,Discharged
+179,34,Male,Asthma,Respiratory,2025-10-28,2025-11-01,4,Emergency,Inhaler Therapy,Left Against Medical Advice
+180,60,Female,Asthma,Respiratory,2025-07-24,2025-07-27,3,Emergency,Inhaler Therapy,Transferred
+181,76,Female,Hypertension,Cardiology,2025-11-14,2025-11-21,7,Emergency,Medication + Lifestyle,Referred for Follow-up
+182,61,Female,Diabetes,Endocrinology,2026-04-30,2026-05-10,10,Referral,Medication + Lifestyle,Discharged
+183,59,Female,Diabetes,Endocrinology,2025-02-07,2025-02-11,4,Referral,Insulin Therapy,Discharged
+184,43,Male,Pneumonia,Respiratory,2025-10-20,2025-10-28,8,Elective,Antibiotics,Discharged
+185,35,Female,Diabetes,Endocrinology,2025-12-06,2025-12-12,6,Emergency,Medication,Transferred
+186,46,Male,Pneumonia,Respiratory,2026-01-12,2026-01-19,7,Emergency,Antibiotics,Transferred
+187,74,Female,Hypertension,Cardiology,2026-03-27,2026-03-28,1,Elective,Medication + Lifestyle,Left Against Medical Advice
+188,37,Male,Asthma,Respiratory,2025-07-11,2025-07-16,5,Emergency,Medication,Discharged
+189,27,Male,Pneumonia,Respiratory,2026-01-12,2026-01-23,11,Emergency,Supportive Care,Discharged
+190,19,Male,Asthma,Respiratory,2026-03-11,2026-03-17,6,Elective,Inhaler Therapy,Discharged
+191,32,Male,Sickle Cell Disease,Hematology,2025-07-04,2025-07-23,19,Elective,Blood Transfusion,Discharged
+192,48,Female,Hypertension,Cardiology,2025-11-25,2025-11-29,4,Referral,Medication + Lifestyle,Discharged
+193,40,Male,Malaria,General Medicine,2025-03-23,2025-03-31,8,Emergency,Antimalarial Therapy,Discharged
+194,57,Male,Pneumonia,Respiratory,2025-11-10,2025-11-22,12,Emergency,Supportive Care,Referred for Follow-up
+195,40,Male,Peptic Ulcer Disease,Gastroenterology,2025-06-20,2025-06-24,4,Referral,Medication + Endoscopy,Discharged
+196,73,Male,Malaria,General Medicine,2025-12-26,2025-12-30,4,Emergency,Medication,Discharged
+197,61,Male,Diabetes,Endocrinology,2025-12-28,2026-01-01,4,Emergency,Medication,Referred for Follow-up
+198,8,Male,Asthma,Respiratory,2025-02-28,2025-03-05,5,Referral,Medication,Discharged
+199,70,Female,Pneumonia,Respiratory,2026-02-20,2026-03-04,12,Emergency,Antibiotics,Discharged
+200,58,Female,Diabetes,Endocrinology,2025-06-13,2025-06-21,8,Emergency,Medication + Lifestyle,Referred for Follow-up
+201,73,Female,Malaria,General Medicine,2026-03-25,2026-04-02,8,Elective,Antimalarial Therapy,Discharged
+202,75,Male,Pneumonia,Respiratory,2025-03-10,2025-03-20,10,Elective,Antibiotics,Left Against Medical Advice
+203,80,Male,Diabetes,Endocrinology,2026-01-11,2026-01-21,10,Referral,Medication + Lifestyle,Left Against Medical Advice
+204,50,Female,Hypertension,Cardiology,2026-01-28,2026-01-29,1,Emergency,Medication + Lifestyle,Discharged
+205,21,Female,Malaria,General Medicine,2026-04-06,2026-04-08,2,Referral,Antimalarial Therapy,Discharged
+206,26,Male,Pneumonia,Respiratory,2026-01-16,2026-01-31,15,Emergency,Supportive Care,Discharged
+207,44,Male,Hypertension,Cardiology,2026-08-11,2026-08-13,2,Elective,Medication,Discharged
+208,10,Male,Diabetes,Endocrinology,2026-01-11,2026-01-20,9,Emergency,Medication + Lifestyle,Left Against Medical Advice
+209,44,Male,Malaria,General Medicine,2025-10-13,2025-10-19,6,Emergency,Medication,Referred for Follow-up
+210,90,Male,Hypertension,Cardiology,2025-01-27,2025-01-31,4,Emergency,Medication,Discharged
+211,44,Female,Malaria,General Medicine,2026-06-15,2026-06-21,6,Elective,Medication,Discharged
+212,81,Female,Pneumonia,Respiratory,2025-09-26,2025-10-10,14,Emergency,Antibiotics,Discharged
+213,49,Female,Pneumonia,Respiratory,2025-08-08,2025-08-17,9,Elective,Supportive Care,Discharged
+214,45,Female,Diabetes,Endocrinology,2026-05-18,2026-05-23,5,Emergency,Insulin Therapy,Referred for Follow-up
+215,66,Female,Hypertension,Cardiology,2025-05-19,2025-05-26,7,Emergency,Medication,Discharged
+216,77,Female,Peptic Ulcer Disease,Gastroenterology,2025-06-26,2025-07-07,11,Emergency,Medication + Endoscopy,Discharged
+217,62,Female,Pneumonia,Respiratory,2025-11-24,2025-12-06,12,Elective,Antibiotics,Discharged
+218,67,Male,Diabetes,Endocrinology,2025-03-08,2025-03-18,10,Referral,Insulin Therapy,Discharged
+219,32,Male,Sickle Cell Disease,Hematology,2026-07-10,2026-07-26,16,Emergency,Medication,Discharged
+220,38,Male,Pneumonia,Respiratory,2025-06-11,2025-06-19,8,Emergency,Supportive Care,Discharged
+221,90,Female,Hypertension,Cardiology,2026-06-05,2026-06-08,3,Emergency,Medication + Lifestyle,Referred for Follow-up
+222,55,Female,Hypertension,Cardiology,2025-07-25,2025-08-01,7,Referral,Medication,Discharged
+223,46,Male,Asthma,Respiratory,2025-08-31,2025-09-01,1,Elective,Inhaler Therapy,Left Against Medical Advice
+224,55,Female,Diabetes,Endocrinology,2026-01-05,2026-01-16,11,Emergency,Medication,Discharged
+225,6,Male,Pneumonia,Respiratory,2026-07-19,2026-07-22,3,Emergency,Supportive Care,Transferred
+226,80,Female,Hypertension,Cardiology,2025-03-09,2025-03-16,7,Referral,Medication,Discharged
+227,38,Male,Hypertension,Cardiology,2026-02-12,2026-02-16,4,Emergency,Medication + Lifestyle,Discharged
+228,59,Male,Asthma,Respiratory,2026-02-24,2026-02-25,1,Elective,Medication,Discharged
+229,29,Male,Malaria,General Medicine,2025-05-09,2025-05-18,9,Emergency,Antimalarial Therapy,Referred for Follow-up
+230,76,Male,Pneumonia,Respiratory,2026-04-06,2026-04-19,13,Referral,Antibiotics,Discharged
+231,29,Male,Pneumonia,Respiratory,2026-06-14,2026-06-23,9,Emergency,Supportive Care,Discharged
+232,40,Male,Pneumonia,Respiratory,2026-07-19,2026-07-24,5,Emergency,Antibiotics,Transferred
+233,70,Female,Asthma,Respiratory,2026-03-20,2026-03-23,3,Emergency,Inhaler Therapy,Discharged
+234,63,Female,Diabetes,Endocrinology,2026-06-15,2026-06-22,7,Emergency,Medication,Referred for Follow-up
+235,60,Male,Hypertension,Cardiology,2025-06-18,2025-06-20,2,Elective,Medication + Lifestyle,Discharged
+236,45,Female,Diabetes,Endocrinology,2025-08-19,2025-08-27,8,Elective,Insulin Therapy,Discharged
+237,55,Female,Malaria,General Medicine,2025-03-22,2025-03-27,5,Referral,Medication,Discharged
+238,40,Male,Asthma,Respiratory,2025-07-21,2025-07-22,1,Elective,Medication,Discharged
+239,63,Male,Diabetes,Endocrinology,2025-10-09,2025-10-16,7,Emergency,Medication + Lifestyle,Discharged
+240,78,Male,Hypertension,Cardiology,2026-07-01,2026-07-04,3,Emergency,Medication + Lifestyle,Discharged
+241,28,Male,Malaria,General Medicine,2026-08-30,2026-09-06,7,Emergency,Antimalarial Therapy,Discharged
+242,68,Female,Asthma,Respiratory,2025-12-12,2025-12-14,2,Elective,Inhaler Therapy,Discharged
+243,44,Male,Peptic Ulcer Disease,Gastroenterology,2025-01-30,2025-02-04,5,Referral,Medication,Discharged
+244,78,Female,Pneumonia,Respiratory,2025-02-16,2025-03-03,15,Emergency,Antibiotics,Discharged
+245,23,Female,Asthma,Respiratory,2026-08-09,2026-08-16,7,Emergency,Inhaler Therapy,Discharged
+246,66,Male,Hypertension,Cardiology,2026-05-25,2026-05-30,5,Referral,Medication,Discharged
+247,32,Female,Peptic Ulcer Disease,Gastroenterology,2025-11-06,2025-11-11,5,Referral,Medication + Endoscopy,Discharged
+248,30,Male,Diabetes,Endocrinology,2025-09-08,2025-09-12,4,Emergency,Insulin Therapy,Discharged
+249,87,Female,Peptic Ulcer Disease,Gastroenterology,2026-04-10,2026-04-14,4,Emergency,Medication + Endoscopy,Discharged
+250,42,Male,Asthma,Respiratory,2025-06-11,2025-06-12,1,Elective,Inhaler Therapy,Discharged
+251,22,Female,Asthma,Respiratory,2026-05-11,2026-05-19,8,Emergency,Medication,Discharged
+252,79,Female,Asthma,Respiratory,2025-12-15,2025-12-21,6,Emergency,Inhaler Therapy,Discharged
+253,16,Male,Asthma,Respiratory,2025-11-23,2025-11-29,6,Emergency,Medication,Discharged
+254,50,Female,Pneumonia,Respiratory,2025-05-14,2025-05-23,9,Emergency,Supportive Care,Discharged
+255,55,Female,Diabetes,Endocrinology,2026-07-30,2026-08-03,4,Emergency,Medication + Lifestyle,Discharged
+256,65,Female,Diabetes,Endocrinology,2025-09-05,2025-09-12,7,Emergency,Insulin Therapy,Discharged
+257,13,Female,Hypertension,Cardiology,2025-10-01,2025-10-10,9,Emergency,Medication,Discharged
+258,29,Female,Diabetes,Endocrinology,2025-05-25,2025-06-03,9,Emergency,Medication,Discharged
+259,43,Male,Malaria,General Medicine,2025-10-25,2025-11-03,9,Emergency,Antimalarial Therapy,Referred for Follow-up
+260,77,Male,Malaria,General Medicine,2025-09-12,2025-09-15,3,Emergency,Medication,Discharged
+261,60,Female,Asthma,Respiratory,2026-08-15,2026-08-22,7,Emergency,Medication,Discharged
+262,69,Male,Hypertension,Cardiology,2025-06-13,2025-06-14,1,Referral,Medication,Discharged
+263,18,Female,Peptic Ulcer Disease,Gastroenterology,2026-06-12,2026-06-23,11,Emergency,Medication + Endoscopy,Discharged
+264,25,Female,Hypertension,Cardiology,2025-11-12,2025-11-15,3,Emergency,Medication + Lifestyle,Discharged
+265,67,Male,Pneumonia,Respiratory,2025-04-03,2025-04-06,3,Referral,Antibiotics,Discharged
+266,57,Male,Pneumonia,Respiratory,2026-06-02,2026-06-09,7,Emergency,Supportive Care,Discharged
+267,86,Female,Malaria,General Medicine,2025-08-09,2025-08-12,3,Elective,Antimalarial Therapy,Referred for Follow-up
+268,55,Male,Pneumonia,Respiratory,2025-02-19,2025-03-01,10,Elective,Supportive Care,Referred for Follow-up
+269,65,Female,Pneumonia,Respiratory,2026-05-22,2026-05-27,5,Referral,Supportive Care,Discharged
+270,8,Male,Diabetes,Endocrinology,2026-04-27,2026-05-02,5,Emergency,Medication + Lifestyle,Transferred
+271,84,Female,Asthma,Respiratory,2025-04-21,2025-04-26,5,Emergency,Inhaler Therapy,Discharged
+272,20,Male,Diabetes,Endocrinology,2025-09-28,2025-10-02,4,Referral,Medication,Discharged
+273,81,Female,Hypertension,Cardiology,2026-02-17,2026-02-24,7,Emergency,Medication + Lifestyle,Discharged
+274,70,Male,Malaria,General Medicine,2026-02-15,2026-02-20,5,Referral,Antimalarial Therapy,Discharged
+275,26,Female,Sickle Cell Disease,Hematology,2026-08-07,2026-08-22,15,Emergency,Pain Management,Transferred
+276,43,Male,Asthma,Respiratory,2026-07-21,2026-07-24,3,Referral,Medication,Discharged
+277,40,Female,Asthma,Respiratory,2025-03-17,2025-03-25,8,Emergency,Medication,Discharged
+278,63,Female,Hypertension,Cardiology,2026-07-18,2026-07-22,4,Emergency,Medication + Lifestyle,Discharged
+279,38,Male,Hypertension,Cardiology,2025-05-12,2025-05-15,3,Emergency,Medication,Discharged
+280,66,Male,Pneumonia,Respiratory,2026-01-18,2026-01-29,11,Referral,Supportive Care,Discharged
+281,71,Male,Pneumonia,Respiratory,2026-07-26,2026-08-05,10,Elective,Supportive Care,Discharged
+282,45,Female,Asthma,Respiratory,2025-07-23,2025-07-30,7,Emergency,Inhaler Therapy,Discharged
+283,85,Female,Malaria,General Medicine,2025-02-16,2025-02-20,4,Elective,Antimalarial Therapy,Discharged
+284,23,Female,Malaria,General Medicine,2025-12-08,2025-12-15,7,Elective,Antimalarial Therapy,Discharged
+285,60,Male,Diabetes,Endocrinology,2026-04-13,2026-04-15,2,Emergency,Medication + Lifestyle,Discharged
+286,55,Male,Malaria,General Medicine,2025-12-02,2025-12-06,4,Emergency,Antimalarial Therapy,Referred for Follow-up
+287,68,Female,Malaria,General Medicine,2026-02-07,2026-02-08,1,Elective,Antimalarial Therapy,Discharged
+288,45,Female,Asthma,Respiratory,2026-08-31,2026-09-02,2,Elective,Medication,Discharged
+289,41,Female,Malaria,General Medicine,2026-07-31,2026-08-07,7,Referral,Medication,Referred for Follow-up
+290,30,Male,Asthma,Respiratory,2026-05-02,2026-05-03,1,Emergency,Medication,Discharged
+291,7,Female,Hypertension,Cardiology,2025-12-06,2025-12-13,7,Emergency,Medication + Lifestyle,Discharged
+292,65,Male,Pneumonia,Respiratory,2026-08-21,2026-08-30,9,Emergency,Supportive Care,Discharged
+293,64,Male,Malaria,General Medicine,2026-05-01,2026-05-06,5,Elective,Antimalarial Therapy,Discharged
+294,48,Female,Diabetes,Endocrinology,2026-08-16,2026-08-21,5,Emergency,Medication + Lifestyle,Transferred
+295,73,Female,Hypertension,Cardiology,2026-08-21,2026-08-27,6,Elective,Medication,Transferred
+296,63,Female,Pneumonia,Respiratory,2026-06-21,2026-06-29,8,Emergency,Antibiotics,Transferred
+297,48,Male,Pneumonia,Respiratory,2025-09-06,2025-09-16,10,Emergency,Antibiotics,Discharged
+298,9,Male,Diabetes,Endocrinology,2025-04-23,2025-04-29,6,Emergency,Medication + Lifestyle,Referred for Follow-up
+299,11,Female,Pneumonia,Respiratory,2026-03-28,2026-03-31,3,Elective,Antibiotics,Transferred
+300,76,Female,Asthma,Respiratory,2025-06-05,2025-06-12,7,Emergency,Medication,Discharged
+301,61,Male,Malaria,General Medicine,2026-02-25,2026-03-08,11,Emergency,Antimalarial Therapy,Discharged
+302,31,Male,Malaria,General Medicine,2025-05-22,2025-05-31,9,Emergency,Antimalarial Therapy,Transferred
+303,77,Male,Peptic Ulcer Disease,Gastroenterology,2026-05-05,2026-05-17,12,Referral,Medication + Endoscopy,Transferred
+304,76,Female,Peptic Ulcer Disease,Gastroenterology,2025-11-18,2025-11-22,4,Referral,Medication + Endoscopy,Discharged
+305,37,Male,Diabetes,Endocrinology,2026-04-16,2026-04-21,5,Emergency,Medication,Discharged
+306,39,Male,Diabetes,Endocrinology,2025-12-29,2026-01-02,4,Elective,Medication + Lifestyle,Discharged
+307,53,Male,Hypertension,Cardiology,2026-05-11,2026-05-13,2,Elective,Medication + Lifestyle,Discharged
+308,64,Male,Diabetes,Endocrinology,2025-10-13,2025-10-18,5,Emergency,Medication,Referred for Follow-up
+309,75,Male,Asthma,Respiratory,2025-11-01,2025-11-05,4,Emergency,Inhaler Therapy,Discharged
+310,67,Female,Sickle Cell Disease,Hematology,2025-08-01,2025-08-12,11,Elective,Medication,Discharged
+311,67,Male,Hypertension,Cardiology,2025-11-21,2025-11-23,2,Elective,Medication + Lifestyle,Referred for Follow-up
+312,51,Female,Diabetes,Endocrinology,2026-07-28,2026-08-04,7,Emergency,Insulin Therapy,Discharged
+313,47,Male,Asthma,Respiratory,2025-05-05,2025-05-09,4,Emergency,Medication,Discharged
+314,47,Female,Pneumonia,Respiratory,2025-12-20,2025-12-31,11,Elective,Supportive Care,Discharged
+315,83,Female,Sickle Cell Disease,Hematology,2025-02-13,2025-03-05,20,Referral,Blood Transfusion,Discharged
+316,70,Female,Peptic Ulcer Disease,Gastroenterology,2025-03-22,2025-03-29,7,Elective,Medication + Endoscopy,Discharged
+317,46,Female,Malaria,General Medicine,2025-09-20,2025-09-21,1,Elective,Medication,Discharged
+318,66,Male,Pneumonia,Respiratory,2025-08-08,2025-08-11,3,Referral,Supportive Care,Discharged
+319,41,Male,Pneumonia,Respiratory,2026-07-06,2026-07-10,4,Emergency,Antibiotics,Referred for Follow-up
+320,68,Female,Hypertension,Cardiology,2025-05-21,2025-05-22,1,Emergency,Medication + Lifestyle,Discharged
+321,70,Female,Malaria,General Medicine,2025-09-06,2025-09-13,7,Referral,Antimalarial Therapy,Discharged
+322,75,Female,Peptic Ulcer Disease,Gastroenterology,2026-06-28,2026-07-09,11,Elective,Medication,Discharged
+323,61,Female,Hypertension,Cardiology,2025-02-23,2025-03-01,6,Elective,Medication,Discharged
+324,90,Female,Hypertension,Cardiology,2025-12-05,2025-12-07,2,Elective,Medication + Lifestyle,Discharged
+325,3,Male,Hypertension,Cardiology,2025-04-13,2025-04-15,2,Emergency,Medication + Lifestyle,Discharged
+326,57,Male,Malaria,General Medicine,2026-07-18,2026-07-27,9,Referral,Antimalarial Therapy,Discharged
+327,51,Female,Malaria,General Medicine,2026-02-21,2026-02-27,6,Emergency,Antimalarial Therapy,Referred for Follow-up
+328,77,Female,Hypertension,Cardiology,2025-07-24,2025-07-30,6,Elective,Medication + Lifestyle,Discharged
+329,76,Male,Hypertension,Cardiology,2025-10-20,2025-10-21,1,Emergency,Medication + Lifestyle,Discharged
+330,76,Female,Sickle Cell Disease,Hematology,2026-08-11,2026-08-27,16,Emergency,Pain Management,Discharged
+331,69,Male,Hypertension,Cardiology,2025-06-29,2025-06-30,1,Referral,Medication,Discharged
+332,27,Female,Peptic Ulcer Disease,Gastroenterology,2025-06-30,2025-07-12,12,Emergency,Medication + Endoscopy,Transferred
+333,70,Male,Asthma,Respiratory,2026-05-23,2026-05-26,3,Emergency,Medication,Discharged
+334,29,Male,Diabetes,Endocrinology,2025-10-24,2025-10-29,5,Emergency,Medication + Lifestyle,Discharged
+335,79,Female,Asthma,Respiratory,2025-11-02,2025-11-03,1,Referral,Inhaler Therapy,Left Against Medical Advice
+336,68,Male,Asthma,Respiratory,2025-12-10,2025-12-14,4,Emergency,Inhaler Therapy,Discharged
+337,28,Female,Diabetes,Endocrinology,2026-07-11,2026-07-21,10,Emergency,Insulin Therapy,Discharged
+338,66,Female,Diabetes,Endocrinology,2026-06-01,2026-06-08,7,Emergency,Medication,Discharged
+339,42,Female,Pneumonia,Respiratory,2025-07-17,2025-07-25,8,Emergency,Supportive Care,Referred for Follow-up
+340,31,Male,Hypertension,Cardiology,2025-06-16,2025-06-20,4,Emergency,Medication + Lifestyle,Transferred
+341,61,Male,Pneumonia,Respiratory,2025-07-10,2025-07-17,7,Elective,Supportive Care,Discharged
+342,40,Male,Pneumonia,Respiratory,2025-10-30,2025-11-09,10,Emergency,Supportive Care,Discharged
+343,8,Female,Diabetes,Endocrinology,2026-02-20,2026-02-24,4,Emergency,Medication,Discharged
+344,31,Female,Sickle Cell Disease,Hematology,2025-12-02,2025-12-14,12,Emergency,Medication,Discharged
+345,32,Female,Diabetes,Endocrinology,2025-04-08,2025-04-18,10,Emergency,Insulin Therapy,Discharged
+346,72,Female,Malaria,General Medicine,2026-05-04,2026-05-11,7,Elective,Antimalarial Therapy,Discharged
+347,55,Female,Hypertension,Cardiology,2025-01-07,2025-01-13,6,Emergency,Medication,Left Against Medical Advice
+348,21,Female,Peptic Ulcer Disease,Gastroenterology,2025-08-30,2025-09-13,14,Emergency,Medication + Endoscopy,Discharged
+349,62,Male,Asthma,Respiratory,2025-12-04,2025-12-07,3,Elective,Medication,Discharged
+350,35,Female,Pneumonia,Respiratory,2025-09-25,2025-10-01,6,Emergency,Antibiotics,Transferred
+351,73,Male,Hypertension,Cardiology,2025-03-05,2025-03-06,1,Elective,Medication,Transferred
+352,55,Female,Hypertension,Cardiology,2026-04-22,2026-04-24,2,Emergency,Medication,Transferred
+353,78,Female,Asthma,Respiratory,2026-02-20,2026-02-22,2,Elective,Inhaler Therapy,Discharged
+354,36,Female,Malaria,General Medicine,2025-05-01,2025-05-10,9,Emergency,Medication,Referred for Follow-up
+355,69,Male,Pneumonia,Respiratory,2025-08-15,2025-08-23,8,Emergency,Supportive Care,Referred for Follow-up
+356,25,Male,Hypertension,Cardiology,2026-05-05,2026-05-08,3,Referral,Medication,Discharged
+357,69,Male,Pneumonia,Respiratory,2026-04-11,2026-04-20,9,Emergency,Antibiotics,Left Against Medical Advice
+358,34,Male,Malaria,General Medicine,2026-07-17,2026-07-26,9,Emergency,Medication,Discharged
+359,41,Male,Peptic Ulcer Disease,Gastroenterology,2025-09-11,2025-09-13,2,Referral,Medication,Discharged
+360,28,Female,Malaria,General Medicine,2026-06-23,2026-06-30,7,Emergency,Antimalarial Therapy,Discharged
+361,75,Female,Diabetes,Endocrinology,2026-01-06,2026-01-11,5,Emergency,Medication + Lifestyle,Discharged
+362,56,Male,Diabetes,Endocrinology,2025-04-25,2025-04-28,3,Emergency,Medication + Lifestyle,Discharged
+363,68,Male,Diabetes,Endocrinology,2026-06-02,2026-06-07,5,Emergency,Medication + Lifestyle,Discharged
+364,42,Male,Diabetes,Endocrinology,2026-07-04,2026-07-13,9,Emergency,Medication + Lifestyle,Referred for Follow-up
+365,46,Female,Hypertension,Cardiology,2025-12-02,2025-12-07,5,Emergency,Medication,Discharged
+366,65,Female,Peptic Ulcer Disease,Gastroenterology,2025-07-30,2025-08-03,4,Emergency,Medication,Transferred
+367,40,Female,Pneumonia,Respiratory,2026-06-07,2026-06-14,7,Elective,Antibiotics,Discharged
+368,70,Female,Malaria,General Medicine,2026-04-10,2026-04-19,9,Referral,Antimalarial Therapy,Discharged
+369,8,Female,Pneumonia,Respiratory,2026-06-10,2026-06-25,15,Emergency,Antibiotics,Discharged
+370,62,Female,Hypertension,Cardiology,2026-08-01,2026-08-04,3,Emergency,Medication + Lifestyle,Discharged
+371,38,Male,Peptic Ulcer Disease,Gastroenterology,2025-11-12,2025-11-18,6,Emergency,Medication + Endoscopy,Discharged
+372,74,Female,Hypertension,Cardiology,2025-09-18,2025-09-22,4,Elective,Medication + Lifestyle,Referred for Follow-up
+373,84,Male,Sickle Cell Disease,Hematology,2025-08-12,2025-08-23,11,Elective,Medication,Discharged
+374,79,Female,Diabetes,Endocrinology,2025-02-16,2025-02-20,4,Emergency,Medication,Transferred
+375,60,Male,Peptic Ulcer Disease,Gastroenterology,2025-03-07,2025-03-19,12,Emergency,Medication + Endoscopy,Discharged
+376,4,Female,Diabetes,Endocrinology,2026-04-29,2026-05-03,4,Referral,Medication,Transferred
+377,78,Female,Hypertension,Cardiology,2025-10-21,2025-10-22,1,Elective,Medication,Discharged
+378,40,Female,Malaria,General Medicine,2025-05-19,2025-05-26,7,Referral,Antimalarial Therapy,Discharged
+379,60,Female,Diabetes,Endocrinology,2026-03-07,2026-03-10,3,Elective,Medication + Lifestyle,Discharged
+380,61,Male,Pneumonia,Respiratory,2026-04-05,2026-04-20,15,Emergency,Supportive Care,Discharged
+381,61,Male,Diabetes,Endocrinology,2025-03-24,2025-04-02,9,Emergency,Insulin Therapy,Referred for Follow-up
+382,30,Male,Diabetes,Endocrinology,2025-12-23,2025-12-27,4,Elective,Medication + Lifestyle,Discharged
+383,18,Male,Diabetes,Endocrinology,2026-07-05,2026-07-10,5,Elective,Medication,Referred for Follow-up
+384,31,Female,Pneumonia,Respiratory,2025-08-17,2025-08-30,13,Emergency,Antibiotics,Discharged
+385,28,Male,Asthma,Respiratory,2025-11-02,2025-11-03,1,Elective,Inhaler Therapy,Discharged
+386,39,Female,Malaria,General Medicine,2026-06-29,2026-07-02,3,Referral,Medication,Discharged
+387,42,Female,Hypertension,Cardiology,2025-08-24,2025-08-28,4,Emergency,Medication + Lifestyle,Discharged
+388,60,Female,Diabetes,Endocrinology,2025-12-21,2025-12-30,9,Referral,Insulin Therapy,Referred for Follow-up
+389,79,Male,Asthma,Respiratory,2025-10-10,2025-10-13,3,Emergency,Inhaler Therapy,Discharged
+390,64,Female,Hypertension,Cardiology,2025-02-02,2025-02-07,5,Elective,Medication,Left Against Medical Advice
+391,61,Female,Asthma,Respiratory,2025-01-17,2025-01-19,2,Emergency,Medication,Discharged
+392,74,Male,Hypertension,Cardiology,2025-03-10,2025-03-14,4,Referral,Medication,Transferred
+393,22,Female,Malaria,General Medicine,2025-02-04,2025-02-10,6,Referral,Antimalarial Therapy,Discharged
+394,59,Female,Sickle Cell Disease,Hematology,2025-02-19,2025-02-24,5,Elective,Blood Transfusion,Discharged
+395,12,Male,Malaria,General Medicine,2026-02-16,2026-02-21,5,Emergency,Antimalarial Therapy,Referred for Follow-up
+396,32,Female,Diabetes,Endocrinology,2026-07-07,2026-07-12,5,Elective,Medication,Discharged
+397,18,Male,Malaria,General Medicine,2025-05-24,2025-05-27,3,Emergency,Antimalarial Therapy,Discharged
+398,83,Male,Sickle Cell Disease,Hematology,2026-08-13,2026-08-31,18,Elective,Pain Management,Transferred
+399,68,Male,Hypertension,Cardiology,2025-08-31,2025-09-05,5,Emergency,Medication + Lifestyle,Discharged
+400,52,Male,Asthma,Respiratory,2026-06-18,2026-06-22,4,Emergency,Inhaler Therapy,Discharged
+401,18,Male,Malaria,General Medicine,2025-11-04,2025-11-06,2,Elective,Medication,Discharged
+402,30,Male,Peptic Ulcer Disease,Gastroenterology,2026-07-25,2026-08-02,8,Emergency,Medication,Discharged
+403,38,Female,Peptic Ulcer Disease,Gastroenterology,2026-07-24,2026-07-31,7,Referral,Medication + Endoscopy,Discharged
+404,70,Female,Malaria,General Medicine,2025-02-18,2025-02-22,4,Emergency,Medication,Discharged
+405,65,Female,Hypertension,Cardiology,2026-06-22,2026-06-27,5,Referral,Medication + Lifestyle,Transferred
+406,45,Male,Hypertension,Cardiology,2026-03-03,2026-03-10,7,Emergency,Medication + Lifestyle,Discharged
+407,25,Male,Sickle Cell Disease,Hematology,2025-11-04,2025-11-17,13,Emergency,Pain Management,Referred for Follow-up
+408,36,Female,Pneumonia,Respiratory,2026-07-05,2026-07-09,4,Elective,Antibiotics,Discharged
+409,71,Male,Malaria,General Medicine,2025-08-19,2025-08-23,4,Emergency,Antimalarial Therapy,Transferred
+410,44,Male,Pneumonia,Respiratory,2026-04-20,2026-04-28,8,Elective,Antibiotics,Discharged
+411,77,Female,Pneumonia,Respiratory,2026-03-03,2026-03-15,12,Emergency,Supportive Care,Discharged
+412,58,Male,Diabetes,Endocrinology,2025-09-06,2025-09-12,6,Emergency,Insulin Therapy,Discharged
+413,55,Female,Asthma,Respiratory,2025-12-05,2025-12-10,5,Emergency,Inhaler Therapy,Discharged
+414,53,Female,Diabetes,Endocrinology,2026-01-15,2026-01-22,7,Elective,Insulin Therapy,Referred for Follow-up
+415,41,Male,Pneumonia,Respiratory,2025-02-22,2025-02-28,6,Emergency,Antibiotics,Discharged
+416,5,Male,Diabetes,Endocrinology,2025-02-10,2025-02-12,2,Referral,Insulin Therapy,Discharged
+417,56,Female,Hypertension,Cardiology,2025-07-12,2025-07-18,6,Referral,Medication,Referred for Follow-up
+418,39,Male,Malaria,General Medicine,2026-05-06,2026-05-15,9,Emergency,Antimalarial Therapy,Transferred
+419,81,Male,Pneumonia,Respiratory,2025-11-07,2025-11-10,3,Emergency,Supportive Care,Discharged
+420,8,Female,Hypertension,Cardiology,2025-07-14,2025-07-19,5,Emergency,Medication,Referred for Follow-up
+421,60,Male,Malaria,General Medicine,2025-09-06,2025-09-09,3,Emergency,Medication,Referred for Follow-up
+422,87,Female,Diabetes,Endocrinology,2025-09-03,2025-09-07,4,Emergency,Insulin Therapy,Left Against Medical Advice
+423,35,Female,Malaria,General Medicine,2026-01-25,2026-01-30,5,Elective,Medication,Discharged
+424,79,Male,Diabetes,Endocrinology,2026-01-03,2026-01-08,5,Emergency,Medication + Lifestyle,Discharged
+425,45,Male,Diabetes,Endocrinology,2026-01-04,2026-01-11,7,Elective,Insulin Therapy,Discharged
+426,54,Male,Asthma,Respiratory,2026-04-23,2026-04-25,2,Referral,Medication,Discharged
+427,60,Male,Diabetes,Endocrinology,2026-04-26,2026-05-03,7,Emergency,Medication,Discharged
+428,10,Male,Diabetes,Endocrinology,2026-01-15,2026-01-21,6,Emergency,Medication,Discharged
+429,80,Female,Hypertension,Cardiology,2025-02-16,2025-02-23,7,Referral,Medication + Lifestyle,Discharged
+430,55,Male,Diabetes,Endocrinology,2025-08-15,2025-08-25,10,Referral,Medication + Lifestyle,Discharged
+431,23,Female,Pneumonia,Respiratory,2025-01-17,2025-02-01,15,Emergency,Antibiotics,Referred for Follow-up
+432,18,Female,Malaria,General Medicine,2025-10-30,2025-11-03,4,Elective,Medication,Discharged
+433,34,Female,Diabetes,Endocrinology,2025-12-04,2025-12-10,6,Emergency,Medication,Discharged
+434,77,Female,Pneumonia,Respiratory,2026-08-07,2026-08-16,9,Referral,Supportive Care,Referred for Follow-up
+435,56,Male,Malaria,General Medicine,2026-05-27,2026-06-03,7,Referral,Antimalarial Therapy,Discharged
+436,8,Female,Pneumonia,Respiratory,2025-09-21,2025-10-05,14,Emergency,Supportive Care,Referred for Follow-up
+437,57,Female,Asthma,Respiratory,2026-04-17,2026-04-22,5,Emergency,Medication,Referred for Follow-up
+438,56,Male,Hypertension,Cardiology,2025-06-23,2025-06-30,7,Referral,Medication + Lifestyle,Discharged
+439,18,Male,Hypertension,Cardiology,2026-07-14,2026-07-18,4,Referral,Medication,Discharged
+440,69,Female,Diabetes,Endocrinology,2025-07-08,2025-07-15,7,Emergency,Insulin Therapy,Transferred
+441,73,Male,Asthma,Respiratory,2025-03-18,2025-03-24,6,Emergency,Inhaler Therapy,Transferred
+442,69,Male,Diabetes,Endocrinology,2026-02-27,2026-03-03,4,Referral,Medication,Left Against Medical Advice
+443,55,Male,Hypertension,Cardiology,2025-08-25,2025-08-27,2,Emergency,Medication,Discharged
+444,69,Male,Peptic Ulcer Disease,Gastroenterology,2025-01-10,2025-01-14,4,Emergency,Medication,Referred for Follow-up
+445,56,Female,Asthma,Respiratory,2026-01-18,2026-01-24,6,Emergency,Medication,Transferred
+446,76,Female,Hypertension,Cardiology,2026-05-15,2026-05-22,7,Elective,Medication + Lifestyle,Transferred
+447,73,Female,Peptic Ulcer Disease,Gastroenterology,2026-06-29,2026-07-12,13,Emergency,Medication,Discharged
+448,26,Male,Pneumonia,Respiratory,2025-01-18,2025-01-24,6,Emergency,Antibiotics,Discharged
+449,64,Male,Hypertension,Cardiology,2025-01-18,2025-01-23,5,Emergency,Medication + Lifestyle,Referred for Follow-up
+450,25,Male,Sickle Cell Disease,Hematology,2025-04-20,2025-05-09,19,Emergency,Pain Management,Discharged
+451,69,Male,Peptic Ulcer Disease,Gastroenterology,2025-09-04,2025-09-15,11,Referral,Medication,Referred for Follow-up
+452,79,Male,Hypertension,Cardiology,2026-06-24,2026-06-28,4,Emergency,Medication,Discharged
+453,26,Female,Hypertension,Cardiology,2025-10-01,2025-10-06,5,Elective,Medication + Lifestyle,Transferred
+454,44,Male,Diabetes,Endocrinology,2026-01-18,2026-01-25,7,Emergency,Medication,Left Against Medical Advice
+455,31,Female,Malaria,General Medicine,2026-08-02,2026-08-06,4,Emergency,Medication,Discharged
+456,62,Male,Pneumonia,Respiratory,2025-11-04,2025-11-13,9,Emergency,Antibiotics,Discharged
+457,68,Male,Hypertension,Cardiology,2025-04-06,2025-04-14,8,Emergency,Medication,Discharged
+458,25,Male,Diabetes,Endocrinology,2026-01-22,2026-01-29,7,Emergency,Insulin Therapy,Transferred
+459,64,Female,Peptic Ulcer Disease,Gastroenterology,2025-01-10,2025-01-17,7,Emergency,Medication,Discharged
+460,23,Female,Peptic Ulcer Disease,Gastroenterology,2026-05-27,2026-06-09,13,Emergency,Medication,Discharged
+461,15,Female,Peptic Ulcer Disease,Gastroenterology,2026-08-03,2026-08-07,4,Elective,Medication + Endoscopy,Discharged
+462,38,Male,Malaria,General Medicine,2025-08-24,2025-08-30,6,Elective,Antimalarial Therapy,Discharged
+463,29,Male,Pneumonia,Respiratory,2025-10-05,2025-10-11,6,Elective,Supportive Care,Discharged
+464,40,Female,Pneumonia,Respiratory,2025-10-15,2025-10-19,4,Emergency,Antibiotics,Discharged
+465,36,Male,Malaria,General Medicine,2025-11-19,2025-11-24,5,Emergency,Antimalarial Therapy,Discharged
+466,35,Female,Diabetes,Endocrinology,2026-08-25,2026-09-01,7,Referral,Medication,Discharged
+467,45,Male,Peptic Ulcer Disease,Gastroenterology,2026-02-12,2026-02-17,5,Referral,Medication,Discharged
+468,77,Male,Hypertension,Cardiology,2025-11-03,2025-11-07,4,Elective,Medication,Discharged
+469,64,Male,Pneumonia,Respiratory,2026-08-04,2026-08-09,5,Elective,Antibiotics,Discharged
+470,5,Male,Hypertension,Cardiology,2026-01-29,2026-01-30,1,Elective,Medication + Lifestyle,Discharged
+471,34,Female,Malaria,General Medicine,2025-03-22,2025-03-26,4,Emergency,Antimalarial Therapy,Discharged
+472,18,Male,Asthma,Respiratory,2025-04-11,2025-04-17,6,Emergency,Inhaler Therapy,Left Against Medical Advice
+473,19,Male,Pneumonia,Respiratory,2025-03-19,2025-03-29,10,Elective,Antibiotics,Discharged
+474,54,Male,Malaria,General Medicine,2025-12-01,2025-12-10,9,Referral,Medication,Discharged
+475,57,Male,Asthma,Respiratory,2025-10-07,2025-10-13,6,Emergency,Inhaler Therapy,Discharged
+476,67,Female,Asthma,Respiratory,2025-08-22,2025-08-26,4,Elective,Medication,Discharged
+477,75,Female,Diabetes,Endocrinology,2026-01-20,2026-01-28,8,Emergency,Medication + Lifestyle,Transferred
+478,73,Female,Hypertension,Cardiology,2026-08-23,2026-08-30,7,Referral,Medication,Discharged
+479,90,Female,Asthma,Respiratory,2025-03-29,2025-04-03,5,Emergency,Medication,Transferred
+480,81,Male,Pneumonia,Respiratory,2025-03-17,2025-03-23,6,Elective,Antibiotics,Discharged
+481,36,Female,Hypertension,Cardiology,2025-06-07,2025-06-10,3,Referral,Medication + Lifestyle,Left Against Medical Advice
+482,4,Male,Hypertension,Cardiology,2025-06-07,2025-06-12,5,Emergency,Medication + Lifestyle,Discharged
+483,18,Male,Malaria,General Medicine,2026-01-05,2026-01-10,5,Elective,Medication,Discharged
+484,72,Female,Diabetes,Endocrinology,2025-01-06,2025-01-16,10,Emergency,Medication,Discharged
+485,62,Male,Malaria,General Medicine,2026-01-04,2026-01-11,7,Elective,Medication,Discharged
+486,55,Female,Hypertension,Cardiology,2025-05-16,2025-05-20,4,Elective,Medication,Discharged
+487,30,Male,Hypertension,Cardiology,2026-03-18,2026-03-20,2,Referral,Medication,Discharged
+488,59,Female,Asthma,Respiratory,2026-07-25,2026-07-29,4,Emergency,Medication,Discharged
+489,58,Female,Hypertension,Cardiology,2025-01-27,2025-01-31,4,Emergency,Medication,Discharged
+490,78,Female,Pneumonia,Respiratory,2026-07-22,2026-07-28,6,Elective,Supportive Care,Discharged
+491,37,Female,Diabetes,Endocrinology,2025-11-29,2025-12-01,2,Elective,Medication + Lifestyle,Discharged
+492,55,Female,Peptic Ulcer Disease,Gastroenterology,2025-10-26,2025-11-02,7,Elective,Medication,Discharged
+493,38,Male,Hypertension,Cardiology,2025-03-28,2025-03-30,2,Emergency,Medication + Lifestyle,Discharged
+494,4,Female,Pneumonia,Respiratory,2026-01-25,2026-02-02,8,Referral,Antibiotics,Discharged
+495,56,Male,Pneumonia,Respiratory,2025-05-23,2025-05-30,7,Emergency,Antibiotics,Discharged
+496,75,Female,Diabetes,Endocrinology,2025-10-02,2025-10-07,5,Referral,Insulin Therapy,Referred for Follow-up
+497,25,Female,Diabetes,Endocrinology,2025-05-30,2025-06-05,6,Emergency,Insulin Therapy,Discharged
+498,35,Female,Malaria,General Medicine,2026-03-22,2026-03-29,7,Elective,Antimalarial Therapy,Discharged
+499,27,Male,Malaria,General Medicine,2025-11-03,2025-11-11,8,Referral,Medication,Discharged
+500,21,Male,Diabetes,Endocrinology,2025-03-20,2025-03-23,3,Emergency,Insulin Therapy,Referred for Follow-up
+501,79,Female,Peptic Ulcer Disease,Gastroenterology,2025-09-10,2025-09-20,10,Elective,Medication + Endoscopy,Discharged
+502,15,Male,Pneumonia,Respiratory,2025-07-20,2025-08-01,12,Elective,Supportive Care,Discharged
+503,21,Male,Pneumonia,Respiratory,2025-05-19,2025-05-25,6,Emergency,Antibiotics,Discharged
+504,75,Male,Hypertension,Cardiology,2026-02-10,2026-02-15,5,Referral,Medication,Referred for Follow-up
+505,5,Female,Malaria,General Medicine,2026-01-25,2026-02-02,8,Emergency,Medication,Transferred
+506,65,Female,Diabetes,Endocrinology,2025-12-09,2025-12-14,5,Elective,Insulin Therapy,Discharged
+507,30,Male,Diabetes,Endocrinology,2025-05-20,2025-05-26,6,Emergency,Medication + Lifestyle,Discharged
+508,27,Male,Hypertension,Cardiology,2025-07-25,2025-07-31,6,Referral,Medication + Lifestyle,Discharged
+509,8,Male,Malaria,General Medicine,2025-11-18,2025-11-22,4,Referral,Medication,Referred for Follow-up
+510,28,Female,Asthma,Respiratory,2026-02-12,2026-02-18,6,Emergency,Inhaler Therapy,Discharged
+511,41,Female,Asthma,Respiratory,2026-05-18,2026-05-22,4,Elective,Medication,Discharged
+512,37,Male,Malaria,General Medicine,2025-11-30,2025-12-07,7,Emergency,Antimalarial Therapy,Discharged
+513,67,Male,Malaria,General Medicine,2026-02-07,2026-02-12,5,Elective,Medication,Discharged
+514,27,Male,Pneumonia,Respiratory,2026-08-01,2026-08-06,5,Emergency,Antibiotics,Discharged
+515,64,Female,Malaria,General Medicine,2026-07-18,2026-07-23,5,Emergency,Antimalarial Therapy,Transferred
+516,77,Female,Diabetes,Endocrinology,2026-04-18,2026-04-25,7,Emergency,Medication + Lifestyle,Discharged
+517,44,Male,Diabetes,Endocrinology,2025-10-26,2025-10-28,2,Elective,Insulin Therapy,Discharged
+518,26,Male,Malaria,General Medicine,2026-02-23,2026-03-02,7,Emergency,Antimalarial Therapy,Discharged
+519,8,Male,Pneumonia,Respiratory,2025-11-07,2025-11-16,9,Referral,Antibiotics,Discharged
+520,47,Female,Malaria,General Medicine,2025-09-16,2025-09-23,7,Referral,Antimalarial Therapy,Discharged
+521,55,Male,Diabetes,Endocrinology,2025-06-07,2025-06-14,7,Emergency,Medication + Lifestyle,Discharged
+522,44,Female,Malaria,General Medicine,2025-03-17,2025-03-26,9,Referral,Medication,Discharged
+523,63,Female,Hypertension,Cardiology,2026-05-06,2026-05-13,7,Referral,Medication + Lifestyle,Discharged
+524,75,Male,Asthma,Respiratory,2026-07-02,2026-07-06,4,Emergency,Medication,Transferred
+525,62,Male,Diabetes,Endocrinology,2025-02-07,2025-02-13,6,Referral,Medication + Lifestyle,Discharged
+526,55,Male,Diabetes,Endocrinology,2026-07-04,2026-07-14,10,Emergency,Insulin Therapy,Referred for Follow-up
+527,55,Female,Diabetes,Endocrinology,2025-09-12,2025-09-17,5,Referral,Medication,Discharged
+528,38,Female,Pneumonia,Respiratory,2025-06-20,2025-07-03,13,Emergency,Supportive Care,Discharged
+529,9,Female,Malaria,General Medicine,2025-12-06,2025-12-08,2,Elective,Medication,Discharged
+530,27,Female,Sickle Cell Disease,Hematology,2025-01-11,2025-02-01,21,Emergency,Pain Management,Discharged
+531,45,Male,Hypertension,Cardiology,2025-08-16,2025-08-20,4,Emergency,Medication + Lifestyle,Left Against Medical Advice
+532,55,Female,Asthma,Respiratory,2026-01-19,2026-01-26,7,Emergency,Medication,Referred for Follow-up
+533,69,Female,Asthma,Respiratory,2026-08-26,2026-09-01,6,Referral,Medication,Discharged
+534,23,Male,Malaria,General Medicine,2025-12-20,2025-12-25,5,Emergency,Antimalarial Therapy,Discharged
+535,63,Female,Asthma,Respiratory,2025-04-18,2025-04-25,7,Emergency,Medication,Discharged
+536,70,Female,Hypertension,Cardiology,2025-03-29,2025-03-30,1,Emergency,Medication + Lifestyle,Discharged
+537,27,Female,Malaria,General Medicine,2025-12-23,2025-12-29,6,Emergency,Antimalarial Therapy,Discharged
+538,66,Female,Hypertension,Cardiology,2026-04-12,2026-04-16,4,Elective,Medication + Lifestyle,Discharged
+539,80,Female,Hypertension,Cardiology,2025-12-23,2025-12-26,3,Emergency,Medication + Lifestyle,Discharged
+540,31,Female,Diabetes,Endocrinology,2026-03-25,2026-04-05,11,Emergency,Medication,Discharged
+541,78,Male,Pneumonia,Respiratory,2025-03-10,2025-03-24,14,Emergency,Supportive Care,Discharged
+542,58,Male,Malaria,General Medicine,2025-04-28,2025-05-03,5,Emergency,Antimalarial Therapy,Discharged
+543,44,Female,Hypertension,Cardiology,2025-04-22,2025-04-25,3,Emergency,Medication + Lifestyle,Discharged
+544,13,Male,Malaria,General Medicine,2026-06-13,2026-06-20,7,Emergency,Antimalarial Therapy,Transferred
+545,18,Male,Malaria,General Medicine,2025-12-05,2025-12-12,7,Referral,Antimalarial Therapy,Discharged
+546,62,Male,Pneumonia,Respiratory,2026-04-19,2026-04-25,6,Referral,Supportive Care,Transferred
+547,75,Male,Diabetes,Endocrinology,2026-02-19,2026-02-21,2,Referral,Medication,Discharged
+548,35,Female,Sickle Cell Disease,Hematology,2025-07-08,2025-07-16,8,Emergency,Medication,Discharged
+549,73,Female,Hypertension,Cardiology,2026-02-10,2026-02-15,5,Emergency,Medication + Lifestyle,Discharged
+550,5,Male,Sickle Cell Disease,Hematology,2025-07-22,2025-08-05,14,Emergency,Medication,Discharged
+551,70,Male,Pneumonia,Respiratory,2026-02-03,2026-02-16,13,Referral,Supportive Care,Discharged
+552,68,Male,Peptic Ulcer Disease,Gastroenterology,2025-08-08,2025-08-10,2,Emergency,Medication,Discharged
+553,52,Female,Diabetes,Endocrinology,2025-03-06,2025-03-12,6,Elective,Insulin Therapy,Discharged
+554,72,Female,Hypertension,Cardiology,2026-07-04,2026-07-07,3,Elective,Medication,Discharged
+555,73,Male,Pneumonia,Respiratory,2025-11-30,2025-12-14,14,Referral,Supportive Care,Discharged
+556,65,Female,Pneumonia,Respiratory,2026-04-14,2026-04-18,4,Referral,Antibiotics,Discharged
+557,32,Female,Asthma,Respiratory,2025-09-26,2025-09-30,4,Emergency,Inhaler Therapy,Transferred
+558,65,Female,Malaria,General Medicine,2026-02-02,2026-02-03,1,Elective,Medication,Discharged
+559,73,Female,Diabetes,Endocrinology,2026-08-25,2026-09-02,8,Referral,Insulin Therapy,Discharged
+560,32,Male,Diabetes,Endocrinology,2025-12-23,2026-01-01,9,Elective,Medication,Discharged
+561,41,Female,Pneumonia,Respiratory,2025-06-26,2025-07-03,7,Referral,Supportive Care,Transferred
+562,60,Male,Asthma,Respiratory,2026-08-28,2026-08-30,2,Emergency,Medication,Discharged
+563,48,Female,Asthma,Respiratory,2025-11-17,2025-11-20,3,Emergency,Inhaler Therapy,Discharged
+564,34,Female,Diabetes,Endocrinology,2025-11-09,2025-11-16,7,Elective,Medication,Discharged
+565,82,Female,Asthma,Respiratory,2026-01-18,2026-01-20,2,Emergency,Inhaler Therapy,Discharged
+566,65,Female,Asthma,Respiratory,2026-03-05,2026-03-10,5,Emergency,Medication,Discharged
+567,18,Male,Asthma,Respiratory,2026-03-10,2026-03-11,1,Referral,Medication,Discharged
+568,59,Female,Sickle Cell Disease,Hematology,2026-05-14,2026-05-31,17,Emergency,Pain Management,Transferred
+569,55,Female,Pneumonia,Respiratory,2026-05-17,2026-05-20,3,Referral,Antibiotics,Discharged
+570,66,Female,Hypertension,Cardiology,2025-05-24,2025-05-30,6,Referral,Medication + Lifestyle,Discharged
+571,70,Male,Asthma,Respiratory,2025-11-19,2025-11-20,1,Referral,Inhaler Therapy,Discharged
+572,58,Male,Hypertension,Cardiology,2025-02-24,2025-02-26,2,Emergency,Medication + Lifestyle,Discharged
+573,73,Male,Hypertension,Cardiology,2026-05-12,2026-05-17,5,Elective,Medication,Referred for Follow-up
+574,67,Female,Hypertension,Cardiology,2026-01-29,2026-02-06,8,Emergency,Medication,Discharged
+575,47,Female,Malaria,General Medicine,2026-05-19,2026-05-26,7,Emergency,Medication,Discharged
+576,55,Male,Asthma,Respiratory,2026-05-16,2026-05-20,4,Emergency,Medication,Discharged
+577,40,Female,Hypertension,Cardiology,2026-08-02,2026-08-05,3,Referral,Medication,Left Against Medical Advice
+578,47,Female,Malaria,General Medicine,2025-08-14,2025-08-22,8,Referral,Antimalarial Therapy,Discharged
+579,20,Female,Diabetes,Endocrinology,2025-02-03,2025-02-11,8,Emergency,Insulin Therapy,Discharged
+580,81,Female,Hypertension,Cardiology,2026-07-05,2026-07-09,4,Elective,Medication,Discharged
+581,42,Female,Peptic Ulcer Disease,Gastroenterology,2026-04-14,2026-04-19,5,Emergency,Medication,Discharged
+582,65,Female,Malaria,General Medicine,2026-08-10,2026-08-18,8,Referral,Antimalarial Therapy,Discharged
+583,76,Male,Peptic Ulcer Disease,Gastroenterology,2025-10-02,2025-10-11,9,Referral,Medication,Discharged
+584,60,Female,Asthma,Respiratory,2026-07-10,2026-07-16,6,Referral,Medication,Discharged
+585,71,Female,Pneumonia,Respiratory,2026-03-28,2026-04-11,14,Emergency,Antibiotics,Discharged
+586,40,Female,Pneumonia,Respiratory,2025-04-15,2025-04-18,3,Referral,Supportive Care,Referred for Follow-up
+587,32,Female,Peptic Ulcer Disease,Gastroenterology,2025-11-01,2025-11-10,9,Elective,Medication,Discharged
+588,61,Female,Asthma,Respiratory,2025-09-27,2025-10-04,7,Emergency,Medication,Discharged
+589,47,Male,Malaria,General Medicine,2026-03-26,2026-04-01,6,Elective,Antimalarial Therapy,Discharged
+590,4,Male,Hypertension,Cardiology,2025-08-03,2025-08-08,5,Referral,Medication,Discharged
+591,70,Male,Hypertension,Cardiology,2026-03-15,2026-03-21,6,Emergency,Medication + Lifestyle,Discharged
+592,32,Male,Malaria,General Medicine,2025-07-31,2025-08-08,8,Emergency,Antimalarial Therapy,Discharged
+593,43,Female,Peptic Ulcer Disease,Gastroenterology,2026-08-07,2026-08-10,3,Emergency,Medication,Discharged
+594,73,Female,Hypertension,Cardiology,2026-07-06,2026-07-10,4,Emergency,Medication + Lifestyle,Discharged
+595,50,Male,Pneumonia,Respiratory,2025-10-27,2025-11-09,13,Emergency,Supportive Care,Discharged
+596,64,Male,Hypertension,Cardiology,2026-06-11,2026-06-12,1,Elective,Medication + Lifestyle,Discharged
+597,67,Female,Malaria,General Medicine,2025-05-19,2025-05-21,2,Elective,Antimalarial Therapy,Discharged
+598,26,Male,Hypertension,Cardiology,2025-10-11,2025-10-15,4,Emergency,Medication,Discharged
+599,6,Female,Asthma,Respiratory,2025-09-13,2025-09-14,1,Elective,Inhaler Therapy,Discharged
+600,73,Female,Diabetes,Endocrinology,2025-11-26,2025-12-06,10,Emergency,Medication + Lifestyle,Discharged
+601,47,Female,Hypertension,Cardiology,2026-05-17,2026-05-19,2,Emergency,Medication + Lifestyle,Referred for Follow-up
+602,60,Male,Hypertension,Cardiology,2026-03-01,2026-03-06,5,Emergency,Medication + Lifestyle,Discharged
+603,48,Male,Malaria,General Medicine,2025-03-19,2025-03-25,6,Emergency,Medication,Discharged
+604,83,Female,Malaria,General Medicine,2026-06-12,2026-06-15,3,Emergency,Medication,Referred for Follow-up
+605,74,Female,Malaria,General Medicine,2026-04-11,2026-04-14,3,Referral,Medication,Discharged
+606,88,Male,Pneumonia,Respiratory,2025-12-02,2025-12-08,6,Elective,Supportive Care,Referred for Follow-up
+607,28,Female,Malaria,General Medicine,2025-04-06,2025-04-11,5,Emergency,Antimalarial Therapy,Discharged
+608,57,Male,Pneumonia,Respiratory,2025-03-06,2025-03-19,13,Emergency,Supportive Care,Discharged
+609,18,Female,Malaria,General Medicine,2026-03-16,2026-03-25,9,Emergency,Antimalarial Therapy,Referred for Follow-up
+610,55,Male,Hypertension,Cardiology,2025-10-02,2025-10-03,1,Elective,Medication + Lifestyle,Discharged
+611,76,Female,Hypertension,Cardiology,2025-12-12,2025-12-16,4,Emergency,Medication + Lifestyle,Discharged
+612,37,Male,Malaria,General Medicine,2025-12-18,2025-12-27,9,Emergency,Medication,Discharged
+613,72,Male,Pneumonia,Respiratory,2025-04-12,2025-04-17,5,Referral,Antibiotics,Discharged
+614,24,Male,Pneumonia,Respiratory,2025-01-17,2025-01-21,4,Elective,Supportive Care,Referred for Follow-up
+615,60,Male,Pneumonia,Respiratory,2026-03-28,2026-04-11,14,Emergency,Antibiotics,Discharged
+616,39,Female,Hypertension,Cardiology,2026-03-15,2026-03-22,7,Elective,Medication,Discharged
+617,71,Female,Peptic Ulcer Disease,Gastroenterology,2025-11-06,2025-11-10,4,Emergency,Medication,Referred for Follow-up
+618,46,Male,Hypertension,Cardiology,2025-04-06,2025-04-12,6,Emergency,Medication + Lifestyle,Discharged
+619,74,Male,Diabetes,Endocrinology,2025-03-26,2025-03-30,4,Elective,Insulin Therapy,Discharged
+620,40,Female,Malaria,General Medicine,2025-02-23,2025-03-03,8,Referral,Antimalarial Therapy,Left Against Medical Advice
+621,28,Female,Malaria,General Medicine,2025-11-09,2025-11-16,7,Referral,Medication,Discharged
+622,43,Female,Peptic Ulcer Disease,Gastroenterology,2026-03-16,2026-03-19,3,Emergency,Medication,Discharged
+623,60,Male,Hypertension,Cardiology,2025-01-02,2025-01-03,1,Emergency,Medication,Discharged
+624,54,Male,Malaria,General Medicine,2025-03-21,2025-03-28,7,Emergency,Medication,Discharged
+625,57,Female,Hypertension,Cardiology,2026-06-16,2026-06-22,6,Emergency,Medication,Discharged
+626,64,Male,Diabetes,Endocrinology,2025-01-09,2025-01-14,5,Emergency,Medication,Discharged
+627,26,Female,Peptic Ulcer Disease,Gastroenterology,2026-03-09,2026-03-19,10,Referral,Medication,Discharged
+628,36,Male,Pneumonia,Respiratory,2026-05-05,2026-05-14,9,Referral,Antibiotics,Discharged
+629,38,Female,Malaria,General Medicine,2025-08-23,2025-08-29,6,Elective,Antimalarial Therapy,Discharged
+630,80,Male,Hypertension,Cardiology,2025-04-15,2025-04-18,3,Emergency,Medication,Discharged
+631,55,Female,Diabetes,Endocrinology,2026-01-12,2026-01-14,2,Referral,Insulin Therapy,Discharged
+632,56,Male,Peptic Ulcer Disease,Gastroenterology,2025-05-21,2025-05-24,3,Referral,Medication + Endoscopy,Discharged
+633,36,Female,Peptic Ulcer Disease,Gastroenterology,2025-05-17,2025-05-24,7,Emergency,Medication + Endoscopy,Discharged
+634,32,Male,Diabetes,Endocrinology,2026-06-28,2026-07-07,9,Emergency,Medication,Discharged
+635,25,Female,Diabetes,Endocrinology,2025-06-18,2025-06-24,6,Emergency,Medication + Lifestyle,Discharged
+636,18,Female,Hypertension,Cardiology,2025-08-07,2025-08-12,5,Emergency,Medication + Lifestyle,Discharged
+637,47,Female,Diabetes,Endocrinology,2026-03-30,2026-04-03,4,Referral,Insulin Therapy,Referred for Follow-up
+638,8,Female,Diabetes,Endocrinology,2025-03-30,2025-04-09,10,Referral,Medication,Left Against Medical Advice
+639,22,Female,Malaria,General Medicine,2025-05-24,2025-05-31,7,Emergency,Antimalarial Therapy,Discharged
+640,22,Female,Peptic Ulcer Disease,Gastroenterology,2025-12-26,2026-01-06,11,Emergency,Medication + Endoscopy,Referred for Follow-up
+641,66,Male,Sickle Cell Disease,Hematology,2025-05-24,2025-06-02,9,Emergency,Blood Transfusion,Discharged
+642,86,Female,Hypertension,Cardiology,2025-03-28,2025-04-02,5,Referral,Medication + Lifestyle,Discharged
+643,67,Female,Asthma,Respiratory,2026-07-21,2026-07-22,1,Elective,Inhaler Therapy,Discharged
+644,19,Male,Asthma,Respiratory,2025-01-28,2025-01-31,3,Referral,Medication,Discharged
+645,67,Male,Hypertension,Cardiology,2025-07-30,2025-08-06,7,Referral,Medication + Lifestyle,Discharged
+646,34,Male,Peptic Ulcer Disease,Gastroenterology,2026-02-06,2026-02-16,10,Emergency,Medication,Discharged
+647,55,Female,Malaria,General Medicine,2025-09-03,2025-09-08,5,Emergency,Antimalarial Therapy,Discharged
+648,69,Female,Sickle Cell Disease,Hematology,2025-04-26,2025-05-02,6,Elective,Blood Transfusion,Discharged
+649,35,Female,Malaria,General Medicine,2025-03-14,2025-03-18,4,Elective,Medication,Discharged
+650,46,Female,Pneumonia,Respiratory,2026-01-05,2026-01-12,7,Emergency,Antibiotics,Discharged
+651,60,Male,Sickle Cell Disease,Hematology,2026-02-01,2026-02-17,16,Emergency,Pain Management,Discharged
+652,12,Male,Hypertension,Cardiology,2026-07-14,2026-07-21,7,Emergency,Medication + Lifestyle,Referred for Follow-up
+653,67,Male,Asthma,Respiratory,2025-03-16,2025-03-22,6,Emergency,Medication,Discharged
+654,24,Male,Diabetes,Endocrinology,2025-03-11,2025-03-17,6,Emergency,Medication + Lifestyle,Discharged
+655,90,Male,Malaria,General Medicine,2025-08-09,2025-08-15,6,Emergency,Medication,Discharged
+656,38,Male,Pneumonia,Respiratory,2026-02-12,2026-02-16,4,Referral,Antibiotics,Discharged
+657,8,Female,Asthma,Respiratory,2026-05-29,2026-06-02,4,Emergency,Medication,Discharged
+658,69,Female,Peptic Ulcer Disease,Gastroenterology,2026-02-16,2026-02-23,7,Elective,Medication + Endoscopy,Discharged
+659,8,Female,Pneumonia,Respiratory,2025-10-12,2025-10-17,5,Emergency,Antibiotics,Discharged
+660,36,Female,Hypertension,Cardiology,2025-03-22,2025-03-23,1,Emergency,Medication + Lifestyle,Discharged
+661,64,Female,Malaria,General Medicine,2026-07-04,2026-07-12,8,Emergency,Antimalarial Therapy,Discharged
+662,31,Male,Hypertension,Cardiology,2026-08-24,2026-08-30,6,Emergency,Medication + Lifestyle,Referred for Follow-up
+663,69,Female,Pneumonia,Respiratory,2026-03-24,2026-03-27,3,Emergency,Supportive Care,Discharged
+664,31,Female,Asthma,Respiratory,2025-09-08,2025-09-11,3,Emergency,Inhaler Therapy,Discharged
+665,62,Male,Pneumonia,Respiratory,2025-04-29,2025-05-10,11,Emergency,Supportive Care,Discharged
+666,71,Male,Sickle Cell Disease,Hematology,2025-02-26,2025-03-19,21,Emergency,Medication,Discharged
+667,67,Female,Hypertension,Cardiology,2025-05-03,2025-05-05,2,Emergency,Medication,Discharged
+668,56,Male,Pneumonia,Respiratory,2025-01-12,2025-01-24,12,Elective,Antibiotics,Referred for Follow-up
+669,18,Female,Pneumonia,Respiratory,2025-12-22,2026-01-01,10,Elective,Supportive Care,Discharged
+670,51,Female,Hypertension,Cardiology,2025-06-20,2025-06-22,2,Referral,Medication + Lifestyle,Left Against Medical Advice
+671,52,Male,Pneumonia,Respiratory,2025-05-10,2025-05-14,4,Emergency,Supportive Care,Referred for Follow-up
+672,55,Male,Diabetes,Endocrinology,2025-05-01,2025-05-07,6,Referral,Medication + Lifestyle,Discharged
+673,66,Male,Peptic Ulcer Disease,Gastroenterology,2025-12-10,2025-12-23,13,Emergency,Medication,Discharged
+674,33,Male,Pneumonia,Respiratory,2026-06-21,2026-07-01,10,Emergency,Supportive Care,Discharged
+675,55,Male,Sickle Cell Disease,Hematology,2026-08-14,2026-09-02,19,Referral,Blood Transfusion,Discharged
+676,62,Female,Hypertension,Cardiology,2026-05-24,2026-06-02,9,Emergency,Medication,Discharged
+677,58,Male,Diabetes,Endocrinology,2026-01-04,2026-01-11,7,Emergency,Medication + Lifestyle,Left Against Medical Advice
+678,87,Female,Pneumonia,Respiratory,2026-08-04,2026-08-16,12,Elective,Supportive Care,Discharged
+679,49,Male,Sickle Cell Disease,Hematology,2025-06-11,2025-07-01,20,Emergency,Blood Transfusion,Discharged
+680,53,Female,Malaria,General Medicine,2026-08-11,2026-08-20,9,Referral,Antimalarial Therapy,Discharged
+681,77,Male,Malaria,General Medicine,2025-08-22,2025-08-27,5,Emergency,Antimalarial Therapy,Discharged
+682,24,Male,Pneumonia,Respiratory,2025-01-13,2025-01-20,7,Emergency,Antibiotics,Discharged
+683,31,Female,Hypertension,Cardiology,2026-04-29,2026-05-02,3,Referral,Medication,Discharged
+684,9,Female,Hypertension,Cardiology,2026-01-28,2026-02-03,6,Emergency,Medication + Lifestyle,Discharged
+685,3,Male,Asthma,Respiratory,2025-02-06,2025-02-07,1,Elective,Inhaler Therapy,Discharged
+686,46,Female,Hypertension,Cardiology,2025-08-18,2025-08-25,7,Referral,Medication + Lifestyle,Discharged
+687,67,Male,Diabetes,Endocrinology,2025-09-12,2025-09-19,7,Emergency,Insulin Therapy,Transferred
+688,33,Male,Asthma,Respiratory,2025-10-05,2025-10-07,2,Elective,Medication,Discharged
+689,46,Male,Diabetes,Endocrinology,2026-01-17,2026-01-24,7,Emergency,Medication + Lifestyle,Discharged
+690,74,Male,Asthma,Respiratory,2025-07-03,2025-07-08,5,Elective,Inhaler Therapy,Discharged
+691,66,Female,Pneumonia,Respiratory,2026-02-15,2026-02-18,3,Emergency,Antibiotics,Discharged
+692,51,Female,Diabetes,Endocrinology,2025-10-17,2025-10-19,2,Referral,Insulin Therapy,Discharged
+693,59,Male,Hypertension,Cardiology,2025-12-02,2025-12-03,1,Emergency,Medication + Lifestyle,Discharged
+694,76,Female,Asthma,Respiratory,2025-01-09,2025-01-15,6,Referral,Medication,Discharged
+695,75,Female,Pneumonia,Respiratory,2025-07-25,2025-07-31,6,Emergency,Supportive Care,Discharged
+696,66,Male,Hypertension,Cardiology,2025-09-06,2025-09-13,7,Referral,Medication + Lifestyle,Discharged
+697,73,Female,Pneumonia,Respiratory,2026-01-13,2026-01-24,11,Elective,Supportive Care,Discharged
+698,57,Male,Diabetes,Endocrinology,2025-07-20,2025-07-27,7,Emergency,Insulin Therapy,Discharged
+699,49,Female,Hypertension,Cardiology,2025-01-07,2025-01-10,3,Elective,Medication,Discharged
+700,35,Female,Diabetes,Endocrinology,2025-08-27,2025-09-01,5,Emergency,Medication,Discharged
+701,64,Female,Diabetes,Endocrinology,2025-01-10,2025-01-18,8,Elective,Medication + Lifestyle,Discharged
+702,80,Male,Asthma,Respiratory,2026-01-21,2026-01-23,2,Elective,Inhaler Therapy,Discharged
+703,62,Male,Asthma,Respiratory,2025-04-17,2025-04-19,2,Referral,Medication,Discharged
+704,2,Male,Asthma,Respiratory,2026-06-27,2026-06-28,1,Emergency,Inhaler Therapy,Discharged
+705,19,Male,Hypertension,Cardiology,2026-05-19,2026-05-20,1,Elective,Medication + Lifestyle,Referred for Follow-up
+706,45,Male,Pneumonia,Respiratory,2025-10-14,2025-10-21,7,Emergency,Antibiotics,Discharged
+707,57,Female,Hypertension,Cardiology,2025-08-26,2025-08-29,3,Emergency,Medication,Discharged
+708,87,Male,Peptic Ulcer Disease,Gastroenterology,2026-04-15,2026-04-25,10,Emergency,Medication + Endoscopy,Discharged
+709,18,Male,Pneumonia,Respiratory,2026-06-02,2026-06-05,3,Emergency,Antibiotics,Discharged
+710,58,Female,Sickle Cell Disease,Hematology,2026-02-08,2026-02-21,13,Emergency,Medication,Discharged
+711,72,Male,Asthma,Respiratory,2026-03-22,2026-03-24,2,Emergency,Inhaler Therapy,Discharged
+712,69,Female,Hypertension,Cardiology,2025-10-26,2025-11-01,6,Emergency,Medication,Discharged
+713,64,Male,Hypertension,Cardiology,2026-02-07,2026-02-12,5,Referral,Medication + Lifestyle,Discharged
+714,42,Male,Sickle Cell Disease,Hematology,2025-12-01,2025-12-17,16,Elective,Medication,Referred for Follow-up
+715,37,Male,Hypertension,Cardiology,2025-10-06,2025-10-13,7,Emergency,Medication + Lifestyle,Discharged
+716,51,Male,Peptic Ulcer Disease,Gastroenterology,2025-07-27,2025-08-07,11,Emergency,Medication,Discharged
+717,8,Female,Diabetes,Endocrinology,2025-04-22,2025-04-25,3,Referral,Medication + Lifestyle,Transferred
+718,39,Male,Hypertension,Cardiology,2025-04-19,2025-04-22,3,Referral,Medication,Discharged
+719,33,Female,Pneumonia,Respiratory,2026-04-06,2026-04-11,5,Referral,Antibiotics,Discharged
+720,37,Male,Pneumonia,Respiratory,2025-11-18,2025-11-26,8,Emergency,Supportive Care,Transferred
+721,41,Male,Malaria,General Medicine,2026-07-03,2026-07-09,6,Emergency,Antimalarial Therapy,Transferred
+722,55,Female,Pneumonia,Respiratory,2026-04-08,2026-04-12,4,Emergency,Antibiotics,Discharged
+723,56,Male,Hypertension,Cardiology,2025-09-29,2025-10-04,5,Emergency,Medication + Lifestyle,Discharged
+724,77,Female,Malaria,General Medicine,2025-06-11,2025-06-20,9,Emergency,Antimalarial Therapy,Discharged
+725,71,Female,Malaria,General Medicine,2025-08-09,2025-08-18,9,Emergency,Antimalarial Therapy,Discharged
+726,68,Female,Hypertension,Cardiology,2025-04-04,2025-04-07,3,Emergency,Medication,Left Against Medical Advice
+727,70,Female,Pneumonia,Respiratory,2026-02-10,2026-02-24,14,Referral,Supportive Care,Discharged
+728,42,Male,Peptic Ulcer Disease,Gastroenterology,2025-11-03,2025-11-13,10,Emergency,Medication,Discharged
+729,5,Male,Malaria,General Medicine,2025-02-01,2025-02-12,11,Emergency,Antimalarial Therapy,Discharged
+730,62,Male,Hypertension,Cardiology,2026-07-24,2026-07-31,7,Referral,Medication + Lifestyle,Discharged
+731,40,Female,Diabetes,Endocrinology,2026-07-18,2026-07-21,3,Emergency,Medication + Lifestyle,Discharged
+732,60,Female,Pneumonia,Respiratory,2026-04-19,2026-05-03,14,Elective,Antibiotics,Discharged
+733,74,Male,Peptic Ulcer Disease,Gastroenterology,2025-05-05,2025-05-09,4,Emergency,Medication,Discharged
+734,18,Female,Malaria,General Medicine,2025-08-16,2025-08-25,9,Emergency,Antimalarial Therapy,Discharged
+735,80,Male,Hypertension,Cardiology,2026-02-15,2026-02-21,6,Referral,Medication,Discharged
+736,74,Female,Diabetes,Endocrinology,2025-03-28,2025-04-02,5,Emergency,Insulin Therapy,Discharged
+737,41,Male,Peptic Ulcer Disease,Gastroenterology,2025-01-23,2025-01-31,8,Emergency,Medication,Referred for Follow-up
+738,49,Female,Hypertension,Cardiology,2026-03-31,2026-04-02,2,Emergency,Medication,Discharged
+739,57,Female,Pneumonia,Respiratory,2025-12-06,2025-12-11,5,Emergency,Antibiotics,Discharged
+740,50,Male,Hypertension,Cardiology,2026-04-18,2026-04-23,5,Emergency,Medication,Referred for Follow-up
+741,55,Male,Pneumonia,Respiratory,2026-08-11,2026-08-16,5,Referral,Antibiotics,Discharged
+742,57,Male,Diabetes,Endocrinology,2026-02-09,2026-02-15,6,Elective,Insulin Therapy,Discharged
+743,30,Male,Diabetes,Endocrinology,2026-01-27,2026-01-31,4,Emergency,Medication,Discharged
+744,70,Male,Diabetes,Endocrinology,2025-12-29,2026-01-06,8,Emergency,Medication,Discharged
+745,44,Female,Hypertension,Cardiology,2025-10-09,2025-10-16,7,Emergency,Medication,Referred for Follow-up
+746,62,Female,Malaria,General Medicine,2025-06-02,2025-06-07,5,Emergency,Medication,Transferred
+747,71,Female,Malaria,General Medicine,2025-10-30,2025-11-05,6,Emergency,Antimalarial Therapy,Discharged
+748,62,Male,Hypertension,Cardiology,2026-07-18,2026-07-22,4,Emergency,Medication + Lifestyle,Discharged
+749,30,Female,Diabetes,Endocrinology,2025-03-31,2025-04-07,7,Emergency,Medication,Transferred
+750,21,Female,Hypertension,Cardiology,2025-05-21,2025-05-27,6,Emergency,Medication + Lifestyle,Discharged
+751,26,Male,Peptic Ulcer Disease,Gastroenterology,2026-06-23,2026-06-30,7,Elective,Medication,Discharged
+752,56,Female,Diabetes,Endocrinology,2026-07-11,2026-07-20,9,Referral,Medication + Lifestyle,Discharged
+753,26,Female,Diabetes,Endocrinology,2026-01-27,2026-02-01,5,Elective,Medication,Discharged
+754,50,Male,Asthma,Respiratory,2026-05-07,2026-05-15,8,Emergency,Medication,Discharged
+755,60,Male,Malaria,General Medicine,2026-08-03,2026-08-10,7,Elective,Medication,Discharged
+756,90,Male,Malaria,General Medicine,2026-02-02,2026-02-10,8,Emergency,Medication,Discharged
+757,43,Male,Diabetes,Endocrinology,2025-01-27,2025-01-31,4,Emergency,Medication,Discharged
+758,40,Female,Hypertension,Cardiology,2025-01-31,2025-02-02,2,Referral,Medication,Discharged
+759,27,Female,Asthma,Respiratory,2025-03-01,2025-03-02,1,Elective,Medication,Discharged
+760,46,Female,Hypertension,Cardiology,2026-08-22,2026-08-26,4,Emergency,Medication + Lifestyle,Discharged
+761,64,Male,Diabetes,Endocrinology,2025-04-13,2025-04-21,8,Elective,Medication,Discharged
+762,71,Male,Pneumonia,Respiratory,2025-09-30,2025-10-03,3,Emergency,Antibiotics,Discharged
+763,90,Female,Malaria,General Medicine,2026-08-13,2026-08-19,6,Referral,Antimalarial Therapy,Discharged
+764,36,Female,Diabetes,Endocrinology,2025-12-30,2026-01-05,6,Emergency,Insulin Therapy,Discharged
+765,51,Male,Pneumonia,Respiratory,2025-08-31,2025-09-12,12,Referral,Antibiotics,Discharged
+766,62,Female,Asthma,Respiratory,2026-01-03,2026-01-04,1,Emergency,Medication,Discharged
+767,37,Female,Malaria,General Medicine,2026-08-05,2026-08-09,4,Emergency,Medication,Discharged
+768,87,Male,Diabetes,Endocrinology,2025-07-12,2025-07-23,11,Emergency,Medication + Lifestyle,Discharged
+769,30,Male,Hypertension,Cardiology,2025-06-29,2025-07-06,7,Emergency,Medication + Lifestyle,Discharged
+770,88,Female,Hypertension,Cardiology,2025-04-03,2025-04-06,3,Emergency,Medication,Referred for Follow-up
+771,77,Male,Malaria,General Medicine,2025-08-13,2025-08-18,5,Emergency,Antimalarial Therapy,Referred for Follow-up
+772,31,Male,Pneumonia,Respiratory,2025-01-01,2025-01-09,8,Emergency,Supportive Care,Discharged
+773,45,Male,Hypertension,Cardiology,2025-05-14,2025-05-15,1,Elective,Medication,Referred for Follow-up
+774,79,Male,Diabetes,Endocrinology,2025-07-01,2025-07-12,11,Emergency,Medication + Lifestyle,Discharged
+775,76,Female,Peptic Ulcer Disease,Gastroenterology,2025-01-23,2025-02-03,11,Elective,Medication,Discharged
+776,19,Female,Diabetes,Endocrinology,2025-05-26,2025-06-04,9,Emergency,Medication + Lifestyle,Referred for Follow-up
+777,62,Male,Pneumonia,Respiratory,2025-03-16,2025-03-21,5,Elective,Supportive Care,Transferred
+778,67,Female,Asthma,Respiratory,2026-08-24,2026-08-26,2,Emergency,Medication,Referred for Follow-up
+779,37,Female,Sickle Cell Disease,Hematology,2025-11-06,2025-11-22,16,Emergency,Blood Transfusion,Discharged
+780,45,Female,Sickle Cell Disease,Hematology,2025-06-11,2025-07-01,20,Emergency,Pain Management,Discharged
+781,71,Male,Sickle Cell Disease,Hematology,2026-05-14,2026-05-26,12,Referral,Medication,Discharged
+782,21,Male,Asthma,Respiratory,2025-06-28,2025-06-29,1,Referral,Medication,Discharged
+783,73,Female,Malaria,General Medicine,2025-08-17,2025-08-24,7,Referral,Medication,Discharged
+784,45,Female,Hypertension,Cardiology,2026-01-23,2026-01-25,2,Referral,Medication,Transferred
+785,44,Male,Sickle Cell Disease,Hematology,2025-10-29,2025-11-14,16,Elective,Blood Transfusion,Discharged
+786,80,Male,Asthma,Respiratory,2025-01-02,2025-01-03,1,Elective,Inhaler Therapy,Transferred
+787,78,Male,Peptic Ulcer Disease,Gastroenterology,2026-08-05,2026-08-15,10,Emergency,Medication + Endoscopy,Discharged
+788,43,Female,Diabetes,Endocrinology,2025-11-22,2025-11-29,7,Emergency,Medication,Discharged
+789,69,Female,Diabetes,Endocrinology,2026-08-03,2026-08-06,3,Referral,Medication + Lifestyle,Discharged
+790,18,Female,Diabetes,Endocrinology,2026-05-24,2026-05-27,3,Emergency,Medication,Transferred
+791,74,Male,Asthma,Respiratory,2025-03-21,2025-03-23,2,Referral,Medication,Discharged
+792,40,Female,Malaria,General Medicine,2025-12-22,2025-12-24,2,Elective,Antimalarial Therapy,Transferred
+793,72,Female,Diabetes,Endocrinology,2025-04-01,2025-04-02,1,Elective,Medication,Discharged
+794,57,Male,Diabetes,Endocrinology,2025-12-10,2025-12-18,8,Emergency,Medication + Lifestyle,Discharged
+795,25,Female,Diabetes,Endocrinology,2025-09-29,2025-10-01,2,Elective,Medication,Discharged
+796,80,Female,Hypertension,Cardiology,2025-03-11,2025-03-12,1,Elective,Medication,Discharged
+797,37,Male,Hypertension,Cardiology,2025-04-21,2025-04-28,7,Emergency,Medication + Lifestyle,Discharged
+798,76,Female,Pneumonia,Respiratory,2026-01-31,2026-02-11,11,Emergency,Antibiotics,Discharged
+799,38,Male,Peptic Ulcer Disease,Gastroenterology,2025-06-20,2025-07-01,11,Emergency,Medication + Endoscopy,Discharged
+800,70,Female,Asthma,Respiratory,2026-01-23,2026-01-24,1,Referral,Medication,Discharged
+801,49,Female,Malaria,General Medicine,2026-07-14,2026-07-21,7,Elective,Medication,Discharged
+802,31,Female,Peptic Ulcer Disease,Gastroenterology,2026-05-06,2026-05-11,5,Emergency,Medication,Transferred
+803,70,Female,Malaria,General Medicine,2026-04-08,2026-04-11,3,Referral,Antimalarial Therapy,Discharged
+804,65,Male,Hypertension,Cardiology,2025-02-04,2025-02-09,5,Emergency,Medication,Referred for Follow-up
+805,32,Female,Hypertension,Cardiology,2025-11-23,2025-11-28,5,Referral,Medication,Discharged
+806,34,Female,Pneumonia,Respiratory,2025-04-18,2025-04-25,7,Emergency,Supportive Care,Discharged
+807,40,Male,Asthma,Respiratory,2025-06-24,2025-06-30,6,Referral,Medication,Discharged
+808,32,Female,Hypertension,Cardiology,2025-06-14,2025-06-18,4,Emergency,Medication + Lifestyle,Transferred
+809,82,Female,Asthma,Respiratory,2025-12-13,2025-12-19,6,Emergency,Inhaler Therapy,Discharged
+810,27,Male,Diabetes,Endocrinology,2025-02-01,2025-02-09,8,Referral,Medication + Lifestyle,Left Against Medical Advice
+811,35,Female,Asthma,Respiratory,2025-06-18,2025-06-25,7,Emergency,Medication,Discharged
+812,32,Female,Diabetes,Endocrinology,2025-02-24,2025-02-28,4,Emergency,Medication,Discharged
+813,55,Male,Hypertension,Cardiology,2025-07-30,2025-08-05,6,Referral,Medication + Lifestyle,Discharged
+814,71,Female,Hypertension,Cardiology,2026-02-24,2026-03-02,6,Emergency,Medication,Discharged
+815,80,Male,Hypertension,Cardiology,2025-11-01,2025-11-07,6,Emergency,Medication + Lifestyle,Discharged
+816,20,Male,Diabetes,Endocrinology,2025-02-20,2025-02-28,8,Elective,Medication,Referred for Follow-up
+817,72,Male,Asthma,Respiratory,2025-06-07,2025-06-09,2,Emergency,Medication,Discharged
+818,11,Female,Asthma,Respiratory,2025-01-04,2025-01-06,2,Referral,Medication,Discharged
+819,70,Female,Sickle Cell Disease,Hematology,2025-03-31,2025-04-17,17,Emergency,Blood Transfusion,Discharged
+820,80,Male,Asthma,Respiratory,2025-07-24,2025-07-28,4,Emergency,Medication,Discharged
+821,64,Male,Asthma,Respiratory,2025-07-31,2025-08-01,1,Emergency,Inhaler Therapy,Discharged
+822,54,Female,Asthma,Respiratory,2025-03-25,2025-03-28,3,Referral,Medication,Transferred
+823,90,Male,Diabetes,Endocrinology,2025-04-29,2025-05-10,11,Emergency,Insulin Therapy,Discharged
+824,66,Female,Asthma,Respiratory,2026-04-28,2026-05-04,6,Emergency,Medication,Discharged
+825,65,Female,Peptic Ulcer Disease,Gastroenterology,2025-04-04,2025-04-14,10,Emergency,Medication + Endoscopy,Discharged
+826,55,Female,Diabetes,Endocrinology,2026-01-15,2026-01-27,12,Emergency,Medication,Discharged
+827,14,Female,Pneumonia,Respiratory,2025-07-11,2025-07-20,9,Referral,Supportive Care,Discharged
+828,31,Male,Malaria,General Medicine,2025-02-15,2025-02-17,2,Referral,Medication,Discharged
+829,65,Female,Diabetes,Endocrinology,2026-03-27,2026-04-03,7,Emergency,Insulin Therapy,Discharged
+830,67,Female,Hypertension,Cardiology,2025-08-20,2025-08-26,6,Referral,Medication + Lifestyle,Discharged
+831,56,Female,Malaria,General Medicine,2026-08-01,2026-08-07,6,Emergency,Medication,Discharged
+832,26,Male,Hypertension,Cardiology,2025-04-10,2025-04-14,4,Emergency,Medication,Discharged
+833,25,Female,Diabetes,Endocrinology,2025-12-19,2025-12-27,8,Emergency,Medication + Lifestyle,Discharged
+834,28,Male,Sickle Cell Disease,Hematology,2025-08-21,2025-09-07,17,Elective,Medication,Referred for Follow-up
+835,69,Male,Pneumonia,Respiratory,2026-02-01,2026-02-06,5,Emergency,Antibiotics,Discharged
+836,40,Male,Asthma,Respiratory,2026-08-10,2026-08-14,4,Elective,Medication,Transferred
+837,85,Female,Malaria,General Medicine,2025-11-03,2025-11-08,5,Emergency,Medication,Discharged
+838,26,Female,Hypertension,Cardiology,2025-02-05,2025-02-06,1,Elective,Medication + Lifestyle,Discharged
+839,49,Female,Hypertension,Cardiology,2025-05-04,2025-05-07,3,Elective,Medication,Discharged
+840,67,Female,Pneumonia,Respiratory,2025-06-21,2025-07-05,14,Emergency,Antibiotics,Referred for Follow-up
+841,37,Male,Hypertension,Cardiology,2025-05-10,2025-05-14,4,Elective,Medication,Discharged
+842,76,Female,Peptic Ulcer Disease,Gastroenterology,2025-03-22,2025-03-25,3,Elective,Medication + Endoscopy,Discharged
+843,58,Male,Asthma,Respiratory,2025-07-26,2025-07-29,3,Emergency,Medication,Discharged
+844,73,Female,Hypertension,Cardiology,2025-11-24,2025-11-25,1,Elective,Medication + Lifestyle,Discharged
+845,71,Female,Diabetes,Endocrinology,2025-03-31,2025-04-05,5,Referral,Medication,Discharged
+846,74,Female,Peptic Ulcer Disease,Gastroenterology,2026-07-24,2026-08-02,9,Emergency,Medication + Endoscopy,Discharged
+847,41,Female,Hypertension,Cardiology,2025-10-10,2025-10-19,9,Emergency,Medication + Lifestyle,Discharged
+848,60,Male,Diabetes,Endocrinology,2026-08-25,2026-09-06,12,Emergency,Medication,Discharged
+849,63,Male,Sickle Cell Disease,Hematology,2026-03-01,2026-03-13,12,Elective,Pain Management,Discharged
+850,64,Female,Sickle Cell Disease,Hematology,2026-08-04,2026-08-16,12,Emergency,Pain Management,Discharged
+851,63,Male,Malaria,General Medicine,2026-07-31,2026-08-08,8,Elective,Antimalarial Therapy,Discharged
+852,5,Male,Pneumonia,Respiratory,2026-07-03,2026-07-11,8,Elective,Supportive Care,Discharged
+853,5,Female,Hypertension,Cardiology,2025-09-28,2025-10-05,7,Emergency,Medication + Lifestyle,Discharged
+854,81,Female,Hypertension,Cardiology,2026-08-09,2026-08-15,6,Referral,Medication + Lifestyle,Transferred
+855,84,Male,Asthma,Respiratory,2025-02-08,2025-02-11,3,Emergency,Medication,Discharged
+856,64,Male,Sickle Cell Disease,Hematology,2026-02-17,2026-03-03,14,Emergency,Blood Transfusion,Discharged
+857,61,Female,Diabetes,Endocrinology,2026-02-16,2026-02-19,3,Emergency,Medication + Lifestyle,Discharged
+858,43,Female,Diabetes,Endocrinology,2025-12-06,2025-12-13,7,Emergency,Insulin Therapy,Transferred
+859,31,Male,Pneumonia,Respiratory,2026-05-02,2026-05-08,6,Emergency,Antibiotics,Discharged
+860,76,Male,Peptic Ulcer Disease,Gastroenterology,2025-01-21,2025-01-25,4,Referral,Medication + Endoscopy,Transferred
+861,72,Male,Diabetes,Endocrinology,2025-11-07,2025-11-15,8,Emergency,Insulin Therapy,Discharged
+862,19,Male,Diabetes,Endocrinology,2026-05-19,2026-05-24,5,Emergency,Insulin Therapy,Discharged
+863,85,Male,Hypertension,Cardiology,2025-05-18,2025-05-21,3,Elective,Medication,Discharged
+864,87,Female,Hypertension,Cardiology,2025-11-25,2025-11-26,1,Elective,Medication + Lifestyle,Transferred
+865,5,Female,Diabetes,Endocrinology,2026-03-03,2026-03-10,7,Emergency,Medication + Lifestyle,Discharged
+866,66,Female,Pneumonia,Respiratory,2026-03-29,2026-04-10,12,Emergency,Antibiotics,Left Against Medical Advice
+867,41,Male,Peptic Ulcer Disease,Gastroenterology,2026-05-12,2026-05-22,10,Referral,Medication + Endoscopy,Discharged
+868,42,Female,Malaria,General Medicine,2025-02-27,2025-03-02,3,Emergency,Medication,Discharged
+869,45,Male,Pneumonia,Respiratory,2025-11-15,2025-11-18,3,Elective,Antibiotics,Discharged
+870,60,Female,Diabetes,Endocrinology,2026-02-18,2026-02-26,8,Elective,Medication + Lifestyle,Discharged
+871,68,Female,Malaria,General Medicine,2025-06-27,2025-07-01,4,Elective,Antimalarial Therapy,Discharged
+872,62,Male,Diabetes,Endocrinology,2025-03-01,2025-03-04,3,Emergency,Medication,Referred for Follow-up
+873,21,Female,Hypertension,Cardiology,2026-04-13,2026-04-15,2,Elective,Medication,Discharged
+874,5,Male,Asthma,Respiratory,2025-07-23,2025-07-25,2,Emergency,Medication,Discharged
+875,69,Female,Hypertension,Cardiology,2026-04-21,2026-04-29,8,Emergency,Medication + Lifestyle,Transferred
+876,87,Male,Pneumonia,Respiratory,2025-02-01,2025-02-12,11,Elective,Antibiotics,Discharged
+877,31,Male,Hypertension,Cardiology,2026-05-16,2026-05-19,3,Emergency,Medication + Lifestyle,Discharged
+878,72,Female,Asthma,Respiratory,2026-05-01,2026-05-04,3,Emergency,Inhaler Therapy,Discharged
+879,37,Male,Hypertension,Cardiology,2025-06-17,2025-06-25,8,Emergency,Medication + Lifestyle,Discharged
+880,52,Female,Diabetes,Endocrinology,2025-04-03,2025-04-07,4,Emergency,Medication + Lifestyle,Discharged
+881,60,Male,Hypertension,Cardiology,2026-01-31,2026-02-02,2,Elective,Medication,Referred for Follow-up
+882,31,Female,Asthma,Respiratory,2026-08-09,2026-08-12,3,Emergency,Inhaler Therapy,Referred for Follow-up
+883,6,Female,Asthma,Respiratory,2025-08-19,2025-08-23,4,Emergency,Inhaler Therapy,Discharged
+884,80,Female,Hypertension,Cardiology,2026-02-24,2026-02-27,3,Emergency,Medication + Lifestyle,Discharged
+885,76,Male,Asthma,Respiratory,2026-05-01,2026-05-04,3,Referral,Inhaler Therapy,Discharged
+886,88,Male,Sickle Cell Disease,Hematology,2025-06-27,2025-07-12,15,Elective,Pain Management,Discharged
+887,45,Male,Asthma,Respiratory,2025-08-18,2025-08-22,4,Elective,Inhaler Therapy,Referred for Follow-up
+888,33,Male,Hypertension,Cardiology,2025-10-09,2025-10-17,8,Emergency,Medication + Lifestyle,Discharged
+889,45,Female,Diabetes,Endocrinology,2025-12-24,2025-12-26,2,Referral,Insulin Therapy,Left Against Medical Advice
+890,81,Female,Hypertension,Cardiology,2025-09-16,2025-09-23,7,Emergency,Medication + Lifestyle,Left Against Medical Advice
+891,78,Female,Sickle Cell Disease,Hematology,2025-11-06,2025-11-21,15,Emergency,Blood Transfusion,Discharged
+892,44,Female,Peptic Ulcer Disease,Gastroenterology,2025-01-08,2025-01-13,5,Emergency,Medication,Discharged
+893,50,Female,Sickle Cell Disease,Hematology,2025-10-17,2025-10-25,8,Referral,Medication,Discharged
+894,81,Female,Hypertension,Cardiology,2025-04-21,2025-04-29,8,Emergency,Medication + Lifestyle,Discharged
+895,54,Male,Asthma,Respiratory,2025-12-11,2025-12-14,3,Emergency,Inhaler Therapy,Discharged
+896,45,Female,Pneumonia,Respiratory,2025-10-11,2025-10-15,4,Referral,Supportive Care,Discharged
+897,35,Female,Asthma,Respiratory,2025-11-02,2025-11-08,6,Emergency,Medication,Referred for Follow-up
+898,39,Female,Sickle Cell Disease,Hematology,2026-06-14,2026-06-29,15,Elective,Pain Management,Discharged
+899,82,Male,Diabetes,Endocrinology,2026-02-18,2026-02-25,7,Emergency,Medication,Discharged
+900,61,Male,Malaria,General Medicine,2025-01-27,2025-02-04,8,Emergency,Antimalarial Therapy,Discharged
+901,73,Male,Pneumonia,Respiratory,2025-09-23,2025-10-02,9,Referral,Supportive Care,Discharged
+902,33,Female,Peptic Ulcer Disease,Gastroenterology,2026-02-19,2026-03-01,10,Elective,Medication + Endoscopy,Discharged
+903,70,Female,Asthma,Respiratory,2026-08-21,2026-08-24,3,Referral,Inhaler Therapy,Discharged
+904,82,Male,Asthma,Respiratory,2025-12-18,2025-12-22,4,Elective,Inhaler Therapy,Discharged
+905,40,Female,Peptic Ulcer Disease,Gastroenterology,2026-07-02,2026-07-11,9,Referral,Medication,Discharged
+906,70,Male,Pneumonia,Respiratory,2026-01-03,2026-01-15,12,Emergency,Supportive Care,Discharged
+907,56,Male,Malaria,General Medicine,2026-07-26,2026-07-29,3,Elective,Antimalarial Therapy,Discharged
+908,77,Male,Hypertension,Cardiology,2025-04-10,2025-04-18,8,Emergency,Medication + Lifestyle,Discharged
+909,10,Female,Sickle Cell Disease,Hematology,2025-09-22,2025-10-10,18,Emergency,Pain Management,Discharged
+910,90,Female,Hypertension,Cardiology,2025-04-02,2025-04-07,5,Emergency,Medication + Lifestyle,Discharged
+911,34,Male,Diabetes,Endocrinology,2025-08-17,2025-08-24,7,Elective,Insulin Therapy,Left Against Medical Advice
+912,72,Female,Asthma,Respiratory,2026-03-07,2026-03-12,5,Emergency,Medication,Discharged
+913,40,Male,Pneumonia,Respiratory,2025-09-24,2025-10-01,7,Elective,Supportive Care,Discharged
+914,85,Female,Diabetes,Endocrinology,2026-04-20,2026-04-23,3,Elective,Insulin Therapy,Discharged
+915,69,Female,Peptic Ulcer Disease,Gastroenterology,2025-02-24,2025-03-07,11,Referral,Medication + Endoscopy,Discharged
+916,41,Female,Diabetes,Endocrinology,2026-08-21,2026-08-28,7,Emergency,Medication + Lifestyle,Discharged
+917,76,Male,Malaria,General Medicine,2025-07-19,2025-07-20,1,Elective,Medication,Discharged
+918,71,Female,Pneumonia,Respiratory,2026-01-26,2026-01-30,4,Elective,Antibiotics,Referred for Follow-up
+919,65,Female,Diabetes,Endocrinology,2026-02-28,2026-03-02,2,Elective,Insulin Therapy,Discharged
+920,71,Male,Hypertension,Cardiology,2025-05-21,2025-05-22,1,Referral,Medication,Discharged
+921,80,Female,Pneumonia,Respiratory,2025-12-17,2025-12-27,10,Emergency,Antibiotics,Discharged
+922,59,Male,Hypertension,Cardiology,2025-05-27,2025-06-04,8,Emergency,Medication + Lifestyle,Referred for Follow-up
+923,71,Female,Sickle Cell Disease,Hematology,2025-07-04,2025-07-14,10,Emergency,Medication,Discharged
+924,62,Male,Malaria,General Medicine,2025-12-07,2025-12-16,9,Emergency,Medication,Discharged
+925,81,Female,Diabetes,Endocrinology,2025-03-01,2025-03-05,4,Referral,Insulin Therapy,Referred for Follow-up
+926,19,Female,Peptic Ulcer Disease,Gastroenterology,2026-04-08,2026-04-21,13,Emergency,Medication,Discharged
+927,31,Male,Diabetes,Endocrinology,2025-06-22,2025-06-30,8,Emergency,Medication,Referred for Follow-up
+928,73,Male,Asthma,Respiratory,2025-04-01,2025-04-02,1,Emergency,Medication,Referred for Follow-up
+929,85,Male,Hypertension,Cardiology,2026-03-16,2026-03-17,1,Elective,Medication + Lifestyle,Discharged
+930,37,Male,Diabetes,Endocrinology,2026-05-04,2026-05-12,8,Emergency,Insulin Therapy,Referred for Follow-up
+931,31,Male,Malaria,General Medicine,2025-02-08,2025-02-17,9,Emergency,Antimalarial Therapy,Discharged
+932,88,Female,Pneumonia,Respiratory,2025-01-15,2025-01-25,10,Emergency,Supportive Care,Discharged
+933,20,Male,Asthma,Respiratory,2025-01-19,2025-01-20,1,Elective,Inhaler Therapy,Discharged
+934,18,Male,Malaria,General Medicine,2025-09-12,2025-09-18,6,Emergency,Antimalarial Therapy,Discharged
+935,43,Female,Hypertension,Cardiology,2025-11-16,2025-11-18,2,Emergency,Medication + Lifestyle,Discharged
+936,64,Male,Malaria,General Medicine,2026-01-28,2026-02-04,7,Emergency,Antimalarial Therapy,Discharged
+937,25,Female,Hypertension,Cardiology,2025-03-08,2025-03-13,5,Emergency,Medication,Discharged
+938,77,Female,Asthma,Respiratory,2025-10-25,2025-10-28,3,Referral,Medication,Referred for Follow-up
+939,72,Female,Sickle Cell Disease,Hematology,2026-06-17,2026-07-06,19,Emergency,Blood Transfusion,Discharged
+940,31,Female,Sickle Cell Disease,Hematology,2025-05-18,2025-05-27,9,Referral,Blood Transfusion,Discharged
+941,57,Female,Peptic Ulcer Disease,Gastroenterology,2026-05-17,2026-05-28,11,Emergency,Medication + Endoscopy,Transferred
+942,48,Male,Peptic Ulcer Disease,Gastroenterology,2025-06-18,2025-06-28,10,Emergency,Medication,Discharged
+943,76,Male,Hypertension,Cardiology,2025-08-22,2025-08-24,2,Elective,Medication,Referred for Follow-up
+944,69,Male,Sickle Cell Disease,Hematology,2025-05-15,2025-05-30,15,Emergency,Medication,Discharged
+945,60,Female,Malaria,General Medicine,2026-08-27,2026-08-30,3,Emergency,Antimalarial Therapy,Discharged
+946,25,Male,Peptic Ulcer Disease,Gastroenterology,2026-01-11,2026-01-19,8,Elective,Medication,Discharged
+947,55,Female,Pneumonia,Respiratory,2026-01-20,2026-01-27,7,Emergency,Antibiotics,Discharged
+948,29,Female,Hypertension,Cardiology,2025-02-19,2025-02-22,3,Referral,Medication,Discharged
+949,69,Female,Asthma,Respiratory,2025-01-21,2025-01-27,6,Elective,Inhaler Therapy,Discharged
+950,72,Female,Peptic Ulcer Disease,Gastroenterology,2026-03-03,2026-03-16,13,Emergency,Medication,Discharged
+951,67,Male,Pneumonia,Respiratory,2025-05-07,2025-05-17,10,Emergency,Supportive Care,Discharged
+952,73,Female,Sickle Cell Disease,Hematology,2025-06-06,2025-06-20,14,Referral,Blood Transfusion,Transferred
+953,57,Female,Malaria,General Medicine,2025-01-10,2025-01-16,6,Referral,Antimalarial Therapy,Left Against Medical Advice
+954,84,Male,Hypertension,Cardiology,2026-03-07,2026-03-13,6,Emergency,Medication + Lifestyle,Discharged
+955,37,Male,Pneumonia,Respiratory,2025-05-21,2025-06-03,13,Emergency,Supportive Care,Discharged
+956,81,Female,Sickle Cell Disease,Hematology,2026-06-08,2026-06-27,19,Elective,Pain Management,Discharged
+957,9,Female,Sickle Cell Disease,Hematology,2025-05-01,2025-05-12,11,Referral,Medication,Discharged
+958,43,Female,Hypertension,Cardiology,2025-04-27,2025-05-04,7,Elective,Medication + Lifestyle,Discharged
+959,44,Female,Peptic Ulcer Disease,Gastroenterology,2025-07-23,2025-07-29,6,Emergency,Medication + Endoscopy,Discharged
+960,74,Female,Pneumonia,Respiratory,2026-06-20,2026-07-03,13,Elective,Supportive Care,Discharged
+961,76,Female,Pneumonia,Respiratory,2026-02-24,2026-03-05,9,Emergency,Supportive Care,Discharged
+962,83,Male,Diabetes,Endocrinology,2025-02-10,2025-02-22,12,Emergency,Medication,Transferred
+963,71,Male,Asthma,Respiratory,2026-05-08,2026-05-09,1,Elective,Inhaler Therapy,Referred for Follow-up
+964,77,Male,Pneumonia,Respiratory,2025-01-03,2025-01-16,13,Elective,Antibiotics,Discharged
+965,36,Female,Asthma,Respiratory,2025-04-24,2025-04-30,6,Emergency,Inhaler Therapy,Discharged
+966,55,Female,Peptic Ulcer Disease,Gastroenterology,2025-04-03,2025-04-06,3,Emergency,Medication,Discharged
+967,5,Female,Hypertension,Cardiology,2025-09-20,2025-09-21,1,Elective,Medication,Discharged
+968,88,Male,Sickle Cell Disease,Hematology,2026-04-13,2026-05-04,21,Referral,Pain Management,Discharged
+969,69,Female,Pneumonia,Respiratory,2025-09-28,2025-10-09,11,Emergency,Supportive Care,Referred for Follow-up
+970,55,Female,Malaria,General Medicine,2025-04-13,2025-04-17,4,Emergency,Antimalarial Therapy,Discharged
+971,39,Female,Hypertension,Cardiology,2025-10-25,2025-10-27,2,Emergency,Medication,Discharged
+972,5,Female,Peptic Ulcer Disease,Gastroenterology,2026-03-13,2026-03-21,8,Emergency,Medication + Endoscopy,Discharged
+973,78,Male,Hypertension,Cardiology,2025-02-16,2025-02-18,2,Emergency,Medication,Discharged
+974,63,Female,Pneumonia,Respiratory,2025-06-24,2025-07-03,9,Emergency,Antibiotics,Discharged
+975,32,Male,Hypertension,Cardiology,2026-03-25,2026-03-27,2,Emergency,Medication + Lifestyle,Discharged
+976,18,Male,Hypertension,Cardiology,2026-01-17,2026-01-21,4,Elective,Medication,Left Against Medical Advice
+977,32,Male,Asthma,Respiratory,2025-04-27,2025-05-05,8,Emergency,Inhaler Therapy,Discharged
+978,55,Female,Peptic Ulcer Disease,Gastroenterology,2026-04-13,2026-04-24,11,Referral,Medication + Endoscopy,Discharged
+979,18,Female,Malaria,General Medicine,2026-01-30,2026-02-04,5,Emergency,Medication,Discharged
+980,47,Female,Hypertension,Cardiology,2025-06-20,2025-06-26,6,Emergency,Medication + Lifestyle,Discharged
+981,47,Female,Sickle Cell Disease,Hematology,2025-03-02,2025-03-07,5,Emergency,Pain Management,Discharged
+982,74,Female,Peptic Ulcer Disease,Gastroenterology,2026-03-03,2026-03-14,11,Emergency,Medication,Discharged
+983,26,Female,Malaria,General Medicine,2025-07-05,2025-07-13,8,Emergency,Medication,Discharged
+984,37,Male,Hypertension,Cardiology,2025-01-30,2025-01-31,1,Emergency,Medication + Lifestyle,Referred for Follow-up
+985,69,Male,Pneumonia,Respiratory,2026-05-15,2026-05-23,8,Emergency,Supportive Care,Discharged
+986,58,Male,Hypertension,Cardiology,2026-03-28,2026-04-04,7,Referral,Medication + Lifestyle,Discharged
+987,85,Male,Malaria,General Medicine,2025-03-06,2025-03-15,9,Emergency,Antimalarial Therapy,Discharged
+988,48,Male,Sickle Cell Disease,Hematology,2025-11-18,2025-11-24,6,Referral,Medication,Transferred
+989,67,Male,Malaria,General Medicine,2026-06-22,2026-06-23,1,Elective,Antimalarial Therapy,Discharged
+990,38,Male,Asthma,Respiratory,2025-12-13,2025-12-16,3,Emergency,Inhaler Therapy,Discharged
+991,40,Female,Sickle Cell Disease,Hematology,2025-09-12,2025-09-17,5,Referral,Blood Transfusion,Discharged
+992,18,Male,Hypertension,Cardiology,2025-12-21,2025-12-24,3,Emergency,Medication + Lifestyle,Discharged
+993,35,Male,Peptic Ulcer Disease,Gastroenterology,2026-07-26,2026-07-30,4,Referral,Medication,Discharged
+994,29,Male,Hypertension,Cardiology,2025-01-12,2025-01-13,1,Elective,Medication,Discharged
+995,59,Female,Sickle Cell Disease,Hematology,2026-06-02,2026-06-19,17,Elective,Pain Management,Discharged
+996,6,Male,Malaria,General Medicine,2025-06-19,2025-06-21,2,Emergency,Medication,Discharged
+997,59,Male,Hypertension,Cardiology,2025-11-25,2025-11-28,3,Emergency,Medication + Lifestyle,Referred for Follow-up
+998,45,Female,Asthma,Respiratory,2025-10-12,2025-10-16,4,Elective,Medication,Discharged
+999,64,Male,Malaria,General Medicine,2026-07-18,2026-07-19,1,Elective,Antimalarial Therapy,Referred for Follow-up
+1000,75,Male,Pneumonia,Respiratory,2026-02-17,2026-02-27,10,Elective,Supportive Care,Discharged
