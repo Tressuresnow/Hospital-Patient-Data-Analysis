@@ -161,6 +161,7 @@ The dashboard provides an overview of:
 * Admission types
 * Average length of stay by department
 
+![Executive Dashboard](screenshots/executive_dashboard.png)
 ### Interactive Patient Analysis
 
 The second page allows users to interactively filter the dataset using:
@@ -173,6 +174,8 @@ The second page allows users to interactively filter the dataset using:
 It also includes dynamic KPIs, diagnosis analysis, outcomes by admission type, and a patient-level data table.
 
 ---
+
+![Interactive Patient Analysis](screenshots/interactive_analysis.png)
 
 ## Project Structure
 
